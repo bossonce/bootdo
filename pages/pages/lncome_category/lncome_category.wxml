@@ -1,0 +1,18 @@
+<!--pages/pages/payment_methods/payment_methods.wxml-->
+<view class="payment_methods" wx:if="{{!payment}}">
+    <button bindtap="xnew" class="payment_methods_button"><image src="../images/icon_company_add.png"></image>新增收款方式</button>
+
+    <view wx:for="{{methods}}">
+      现金
+      <image src="../images/delete.png" bindtap="xnew_methods"></image>
+    </view>
+</view>
+
+<view class="payment_methods" wx:if="{{payment}}">
+  <view class="payment_methods1">
+    <span>收款方式</span>
+    <input placeholder-class="payment_methods1_color" placeholder="请输入收款方式" ></input>
+  </view>
+</view>
+
+<button class="submit" bindtap="submit1">保存</button>

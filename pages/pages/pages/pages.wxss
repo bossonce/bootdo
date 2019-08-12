@@ -1,0 +1,32 @@
+/* pages/pages/pages.wxss */
+
+.prompt{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: #111a2b;
+}
+
+.company{
+  position: absolute;
+  top:0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  bottom: 0rpx;
+  margin: auto;
+  height: 330rpx;
+}
+
+.company>button{
+  width: 492rpx;
+	height: 129rpx;
+  border-radius: 65rpx;
+  border: 0rpx;
+  text-align: center;
+  line-height: 129rpx;
+  margin-bottom: 69rpx;
+  padding: 0rpx;
+  font-size: 36rpx;
+  color: #fff;
+  background-color: #0059a7;
+}

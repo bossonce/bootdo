@@ -1,0 +1,183 @@
+<!--pages/pages/art_star_in_space_order/art_star_in_space_order.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>客户名称</span>中艺星宇
+      </view>
+      <view>
+        <span>联系人</span>张豆豆
+      </view>
+      <view>
+        <span>联系方式</span>18653987569
+      </view>
+      <view>
+        <span>日期</span>2019-06-12至2019-06-13
+      </view>
+      <view>
+        <span>活动地点</span>中国儿童中心
+      </view>
+      <view>
+        <span>活动类型</span>庆典
+      </view>
+      <view class="for_outbound_view">
+        <span>备注</span>
+        <view>
+          中国儿童中心中国儿童中心中国儿童中心儿童 中心
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>订单状态</span>已完成
+      </view>
+      <view>
+        <span>活动费用</span>1000.00
+      </view>
+      <view bindtap="device" class="active_device">
+        <view>
+          <span>活动设备</span>
+          <image src="../images/white_down_arrow.png" style="transform: rotate({{active}}deg);"></image>
+        </view>
+
+        <view wx:if="{{pacte}}">
+          <view class="for_outbound_content">
+            <view>1.00台</view>
+            <view>E2</view>
+            <view>标准</view>
+            <view>巴克</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>订单信息</span>
+      </view>
+      <view>
+        <span>创建时间</span>2019-07-04 14:53:48
+      </view>
+      <view>
+        <span>出库时间</span>2019-07-04 14:53:48
+      </view>
+      <view>
+        <span>回库时间</span>2019-07-04 14:53:48
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>出库物流信息</span>
+      </view>
+      <view>
+        <span>人员</span>肖继新
+      </view>
+      <view>
+        <span>电话</span>18659687954
+      </view>
+      <view>
+        <span>运费</span>1200.00
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>回库物流信息</span>
+      </view>
+      <view>
+        <span>人员</span>肖继新
+      </view>
+      <view>
+        <span>电话</span>18659687954
+      </view>
+      <view>
+        <span>运费</span>1200.00
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span class="note_span">回库物流信息</span>
+        <textarea placeholder-class="note" placeholder="请填写备注信息"></textarea>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>人员安排</span>
+      </view>
+      <view class="staffing1">
+        <span>测试使用</span>
+        <view class="staffing">
+          <button role="button" aria-disabled="false">肖继新
+            <image class="staffing_image" src="../images/researchers_call.png" role="img"></image>
+          </button>
+          <button class="staffing_button" role="button" aria-disabled="false">肖继新
+            <image class="staffing_image" src="../images/researchers_call.png" role="img"></image>
+          </button>
+          <button role="button" aria-disabled="false">肖继新
+            <image class="staffing_image" src="../images/researchers_call.png" role="img"></image>
+          </button>
+        </view>
+      </view>
+
+      <view class="staffing1">
+        <span>测试使用</span>
+        <view class="staffing">
+          <button role="button" aria-disabled="false">肖继新
+            <image class="staffing_image" src="../images/researchers_call.png" role="img"></image>
+          </button>
+          <button class="staffing_button" role="button" aria-disabled="false">肖继新
+            <image class="staffing_image" src="../images/researchers_call.png" role="img"></image>
+          </button>
+          <button role="button" aria-disabled="false">肖继新
+            <image class="staffing_image" src="../images/researchers_call.png" role="img"></image>
+          </button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view class="picture">
+        <span>图片留言</span>
+        <view>
+          <image src="../images/text_pactur.png"></image>
+          <image src="../images/text_pactur.png"></image>
+          <image src="../images/text_pactur.png"></image>
+          <image src="../images/text_pactur.png"></image>
+
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay stay1">
+    <view class="for_outbound">
+      <view>
+        <span>用户评价</span>
+        <image src="../images/yellow_star.png"></image>
+        <image src="../images/yellow_star.png"></image>
+        <image src="../images/yellow_star.png"></image>
+        <image src="../images/yellow_star.png"></image>
+        <image src="../images/yellow_star.png"></image>
+
+      </view>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,6 @@
+/* pages/pages/recommend_zone/recommend_zone.wxss */
+
+.recommend_zone1{
+  padding-bottom: 120rpx;
+  overflow: hidden;
+}

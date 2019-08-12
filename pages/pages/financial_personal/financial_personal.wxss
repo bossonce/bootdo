@@ -1,0 +1,47 @@
+/* pages/pages/financial_personal/financial_personal.wxss */
+.company_financial_view{
+  width: 650rpx;
+	height: 190rpx;
+	border-radius: 16rpx;
+  overflow: hidden;
+  background-size: 100% 100%;
+  margin: 40rpx auto;
+}
+
+.company_financial_view_yuan{
+  width: 575rpx;
+  height: 77rpx;
+  margin:65rpx auto 0rpx auto;
+}
+
+.company_financial_view_yuan>view{
+  width: 285rpx;
+  height: 100%;
+  float: left;
+  text-align: center;
+  font-size: 22rpx;
+  color: #fff;
+}
+
+.company_financial_view_yuan>view>view{
+  font-size: 36rpx;
+  color: #fff;
+  margin-top: 7rpx;
+}
+
+.company_financial_view_yuan>span{
+  float: left;
+  width: 3rpx;
+  height: 77rpx;
+  background: #fff;
+}
+
+.stay {
+  padding-bottom: 0rpx;
+
+}
+
+.for_outbound>view>image{
+  width: 14rpx;
+	height: 25rpx;
+}

@@ -1,0 +1,55 @@
+/* pages/pages/address_book/address_book.wxss */
+
+.title {
+  position: relative;
+}
+
+.address_book {
+  width: 690rpx;
+  margin: auto;
+  border-top: 1rpx solid #293c60;
+}
+
+.address_book>view {
+  width: 33.3333333333333%;
+  float: left;
+  text-align: center;
+  line-height: 118rpx;
+  font-size: 30rpx;
+  color: #7f9fdc;
+  height: 118rpx;
+}
+
+.address_book>view>text {
+  width: 66rpx;
+  height: 4rpx;
+  background-color: #3ec9e6;
+  display: block;
+  margin: -25rpx auto 0rpx auto;
+}
+
+.address_book>.address_book_view{
+  color: #ffffff;
+}
+
+.stay{
+  padding-bottom: 40rpx;
+}
+
+.for_outbound>view>.for_outbound_name{
+  color: #fff;
+}
+
+.for_outbound>view>text{
+  font-size: 28rpx;
+  color: #b1bdf5;
+  display: inline-block;
+  float: left;
+}
+
+.for_outbound>view>i{
+  font-size: 28rpx;
+  color: #37bc9b;
+  display: inline-block;
+  float: left;
+}

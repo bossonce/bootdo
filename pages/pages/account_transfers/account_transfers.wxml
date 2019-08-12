@@ -1,0 +1,49 @@
+<!--pages/pages/account_transfers/account_transfers.wxml-->
+<view class="style">
+  <view class="account_transfers">
+    <view class="account_transfers_view">
+      <view>转出方式</view>
+      <text>请选择</text>
+      <image src="../images/white_down_arrow.png"></image>
+    </view>
+    <view class="account_transfers_view1">
+    </view>
+
+    <view class="account_transfers_view">
+      <view>账出余额</view>
+      8888.00
+    </view>
+
+    <view class="account_transfers_view">
+      <view>转入账户</view>
+      <text>请选择</text>
+      <image src="../images/white_down_arrow.png"></image>
+    </view>
+    <view class="account_transfers_view1">
+    </view>
+
+    <view class="account_transfers_view">
+      <view>账入余额</view>
+      8888.00
+    </view>
+
+    <view class="account_transfers_view">
+      <view>账入余额</view>
+      <input type="number" bindinput='moneyInput' placeholder-class="account_transfers_input" placeholder="请填写转账金额" value="{{money}}"></input>
+    </view>
+
+    <view class="account_transfers_view">
+      <view>账入余额</view>
+      <text>2019-07-04</text>
+      <image class="account_transfers_image" src="../images/icon_calendar.png"></image>
+    </view>
+
+    <view class="account_transfers_view account_transfers_view1">
+      <view>备注</view>
+      <textarea placeholder="请填写备注" placeholder-class="account_transfers_input"></textarea>
+    </view>
+
+  </view>
+</view>
+
+<button class="account_transfers_button">保存</button>

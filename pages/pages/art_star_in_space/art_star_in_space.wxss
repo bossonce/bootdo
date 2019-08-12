@@ -1,0 +1,146 @@
+/* pages/pages/art_star_in_space/art_star_in_space.wxss */
+
+.style {
+  width: 690rpx;
+  margin: 0rpx auto 47rpx auto;
+  padding-top: 30rpx;
+  overflow: hidden;
+}
+
+.running_water_title>view {
+  width: 258rpx;
+  height: 60rpx;
+  background-color: #1e2d4a;
+  border-radius: 10rpx;
+  float: left;
+  line-height: 60rpx;
+  text-align: center;
+}
+
+.running_water_title>view>input {
+  font-size: 26rpx;
+  color: #fff;
+  height: 100%;
+  line-height: 60rpx;
+}
+
+.running_water_title_input {
+  color: #a3b7da;
+}
+
+.running_water_title>text {
+  float: left;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  color: #a3b7da;
+  padding: 0rpx 10rpx;
+}
+
+.running_water_title>button {
+  float: right;
+  line-height: 28rpx;
+  color: #fff;
+  height: 60rpx;
+  font-size: 26rpx;
+  background-image: linear-gradient(94deg, #2167ef 0%, #3790ef 100%),
+                      linear-gradient(#0059a7, #0059a7);
+  background-blend-mode: normal, normal;
+  border-radius: 10rpx;
+  padding: 17rpx 23rpx;
+}
+
+.art_star_in_space {
+  width: 690rpx;
+  background-color: #1a2843;
+  box-shadow: 0px 1rpx 27rpx 0rpx rgba(3, 0, 0, 0.1);
+  border-radius: 16rpx;
+  margin: 0rpx auto 20rpx auto;
+  overflow: hidden;
+}
+
+.income {
+  width: 33.33333333333333%;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+}
+
+.income>view {
+  margin-top: 60rpx;
+  font-size: 48rpx;
+}
+
+.income>text {
+  margin-top: 17rpx;
+  font-size: 22rpx;
+  padding-bottom: 10rpx;
+  display: block;
+}
+
+.art_star_in_space {
+  width: 690rpx;
+  background-color: #1a2843;
+  box-shadow: 0rpx 1rpx 2r7px 0rpx rgba(3, 0, 0, 0.1);
+  border-radius: 16rpx;
+  margin: 0rpx auto 20rpx auto;
+  padding-bottom: 50rpx;
+  position: relative;
+}
+
+.art_star_in_space_view {
+  width: 630rpx;
+  line-height: 100rpx;
+  border-bottom: 1rpx solid #293c60;
+  color: #293c60;
+  overflow: hidden;
+  margin: 20rpx auto 0rpx auto;
+}
+
+.art_star_in_space_view>button {
+  width: 130rpx;
+  height: 60rpx;
+  background-color: #37bc9b;
+  border-radius: 30rpx;
+  font-size: 30rpx;
+  line-height: 60rpx;
+  float: right;
+  text-align: center;
+  color: #fff;
+  padding: 0rpx;
+  margin-top: 16rpx;
+}
+
+.art_star_in_space_view>view {
+  width: 130rpx;
+  float: left;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  color: #7f9fdc;
+}
+
+.art_star_in_space_view>text {
+  height: 100%;
+  color: #fff;
+  margin-left: 44rpx;
+  display: inline-block;
+}
+
+.art_star_in_space1 {
+  width: 630rpx;
+  margin: auto;
+  line-height: 77rpx;
+  border-bottom: 0rpx;
+}
+
+.art_star_in_space>view>image{
+  position: absolute;
+  right: 30rpx;
+  top: 0rpx;
+  bottom: 0rpx;
+  margin: auto;
+  width: 17rpx;
+  height: 30rpx;
+}

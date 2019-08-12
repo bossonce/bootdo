@@ -1,0 +1,26 @@
+<!--pages/pages/third_party/third_party.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>标签</span>
+        <input placeholder-class="title2_placeholder" placeholder="请输入" value="标签"></input>
+      </view>
+      <view>
+        <span>联系人</span>
+        <input placeholder-class="title2_placeholder" placeholder="请输入" value="联系人"></input>
+      </view>
+      <view>
+        <span>联系电话</span>
+        <input placeholder-class="title2_placeholder" placeholder="请输入" value="联系电话"></input>
+      </view>
+      <view>
+        <span>公司名称</span>
+        <input placeholder-class="title2_placeholder" placeholder="请输入" value="公司名称"></input>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<button class="submit_audit">保存</button>

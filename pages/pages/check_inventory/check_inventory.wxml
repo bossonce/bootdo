@@ -1,0 +1,99 @@
+<!--pages/pages/check_inventory/check_inventory.wxml-->
+
+<view class="for_outbound">
+  <view class="for_outbound_title">
+    <view bindtap="for_outbound_title" class="{{tab == 0?'for_outbound_title_view':''}}" data-num="0">音响设备</view>
+    <view bindtap="for_outbound_title" class="{{tab == 1?'for_outbound_title_view':''}}" data-num="1">视频设备</view>
+    <view bindtap="for_outbound_title" class="{{tab == 2?'for_outbound_title_view':''}}" data-num="2">辅材</view>
+    <view bindtap="for_outbound_title" class="{{tab == 3?'for_outbound_title_view':''}}" data-num="3">控制设备</view>
+    <view bindtap="for_outbound_title" class="{{tab == 4?'for_outbound_title_view':''}}" data-num="4">控制机型</view>
+  </view>
+
+  <view class="for_outbound_content1" hidden="{{tab !=0}}">
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+  </view>
+
+  <view class="for_outbound_content1" hidden="{{tab !=1}}">
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+  </view>
+
+  <view class="for_outbound_content1" hidden="{{tab !=2}}">
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+  </view>
+
+  <view class="for_outbound_content1" hidden="{{tab !=3}}">
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+  </view>
+  
+  <view class="for_outbound_content1" hidden="{{tab !=4}}">
+    <view class="for_outbound_content">
+      <view>10<span>台</span></view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view class="for_outbound_content_view">标准</view>
+      <view class="for_outbound_content_view">巴克</view>
+    </view>
+  </view>
+
+</view>

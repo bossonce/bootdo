@@ -1,0 +1,51 @@
+/* pages/pages/receivable/receivable.wxss */
+.for_outbound>view>image{
+  width: 14rpx;
+	height: 25rpx;
+  float: right;
+  margin-left: 20rpx;
+  margin-top: 32rpx;
+}
+
+.for_outbound>view>text{
+  font-size: 36rpx;
+  color: #ffbc36;
+  float: left;
+  margin-left: 32rpx;
+}
+
+.for_outbound>view>view{
+  float: right;
+  font-size: 24rpx;
+}
+
+.for_outbound>view>view>checkbox{
+  background: transparent;
+  width: 20rpx;
+	height: 20rpx;
+  border: 2rpx solid #3ec9e6;
+  border-radius: 2rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+  margin-top: -4rpx;
+}
+
+checkbox .wx-checkbox-input{
+    border: 0;
+    background: none;
+    width: 20rpx;
+	  height: 20rpx;
+    line-height: 20rpx;
+    margin-right: 10rpx;
+    margin-top: -4rpx;
+}
+
+/* //选择收的图标 */
+.for_outbound>view>view>checkbox .wx-checkbox-input:before{
+      width: 20rpx;
+      height: 20rpx;
+      text-align: center;
+      margin-top: -38rpx;
+      font-size: 20rpx;
+      line-height: 20rpx;
+}

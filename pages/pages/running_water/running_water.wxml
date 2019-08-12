@@ -1,0 +1,50 @@
+<!--pages/pages/running_water/running_water.wxml-->
+<view class="style">
+  <view class="running_water_title">
+    <view>
+      <input placeholder-class="running_water_title_input" placeholder="起始日期"></input>
+    </view>
+    <text>至</text>
+    <view>
+      <input placeholder-class="running_water_title_input" placeholder="截止日期"></input>
+    </view>
+
+    <button>搜索</button>
+
+  </view>
+</view>
+
+<view class="running_water">
+  <view>
+    <view>
+      <text>+</text> 200
+    </view>
+    <view>租赁收入</view>
+    <view>2019年7月25</view>
+  </view>
+
+  <view>
+    <view id="running_water_text">
+      <text>-</text> 200
+    </view>
+    <view>租赁收入</view>
+    <view>2019年7月25</view>
+  </view>
+
+  <view>
+    <view>
+      <text>+</text> 200
+    </view>
+    <view>租赁收入</view>
+    <view>2019年7月25</view>
+  </view>
+
+  <view>
+    <view>
+      <text>+</text> 200
+    </view>
+    <view>租赁收入</view>
+    <view>2019年7月25</view>
+  </view>
+
+</view>

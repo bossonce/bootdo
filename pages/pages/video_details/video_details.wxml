@@ -1,0 +1,18 @@
+<!--pages/pages/video_details/video_details.wxml-->
+<view class="video_details">
+  <view class="video_details1" bindtap="video_details1"id="1" wx:if="{{xtrue}}">
+    <image src="../images/play_button.png"></image>
+    试听
+  </view>
+
+  <video src="../images/2.mp4" id="1" show-center-play-btn="{{false}}"></video>
+</view>
+
+<view class="video_details_content">
+  <view>佛学50讲佛学50讲</view>
+  <view>学佛三天，佛在眼前</view>
+  <view>￥662</view>
+  <view>肖继新  著名佛学家</view>
+</view>
+
+<button class="video_details_button">购买</button>

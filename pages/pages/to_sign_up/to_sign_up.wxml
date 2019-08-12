@@ -1,0 +1,13 @@
+<!--pages/pages/to_sign_up/to_sign_up.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound_content">
+      <view>肖继新</view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view>2019-07-03</view>
+      <view class="for_outbound_content_view">
+        <image src="../images/positioning1.png"></image>标准
+      </view>
+    </view>
+  </view>
+</view>

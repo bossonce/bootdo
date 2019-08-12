@@ -1,0 +1,110 @@
+.index{
+  width: 690rpx;
+  margin:40rpx auto;
+}
+
+/* .account{
+  width: 690rpx;
+	background-color: #1a2843;
+	box-shadow: 0px 1rpx 27rpx 0rpx 
+		rgba(3, 0, 0, 0.1);
+	border-radius: 16rpx;
+  font-size: 30rpx;
+  color: #7f9fdc;
+  overflow: hidden;
+  padding-bottom: 30rpx;
+  margin: auto;
+}
+
+.enter_an_item_in_an_account{
+  width: 28rpx;
+  height: 25rpx;
+}
+
+.white_down_arrow{
+  width: 25rpx;
+  height: 14rpx;
+  float: right;
+  margin-top: 15rpx;
+  transform:rotate(180deg);
+}
+
+
+.account_an{
+  height: 150rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #293c60;
+}
+
+.account_an>view{
+  float: left;
+  width: 60%;
+  color: #FFF;
+  margin-top: 40rpx;
+}
+
+.account_an>view>view{
+  margin-top: 8rpx;
+
+}
+
+.account_an>view>view>view{
+  display: inline-block;
+  margin-right: 29rpx;
+  font-size: 26rpx;
+  color: #6288cc;
+}
+
+.account_an>button{
+  font-size: 28rpx;
+  color: #fefefe;
+  padding: 19rpx 28rpx;
+  display: inline-block;
+  background: #37bc9b;
+  line-height: 28rpx;
+  float: right;
+  margin-top: 43rpx;
+}
+
+/* 下拉动画 */
+/* @keyframes Css3 新标签，循环动画 */
+/* .temp{
+  overflow: hidden;
+}
+
+@keyframes slidown{
+    from{
+        transform:  translateY(-100%);
+    }
+    to{
+        transform:  translateY(0%);
+    }
+}
+.slidown{
+    display: block;
+    animation: slidown .2s ease-in both;
+}
+ 
+/* 上拉动画 */
+/* @keyframes slidup{
+    from{
+        transform:  translateY(0%);
+    }
+    to{
+        transform:  translateY(-100%);
+    }
+}
+.slidup{
+    display: block;
+    animation: slidup .2s ease-in both;
+    height: 0px;
+}
+
+.account1{
+    position: relative;
+    z-index: 99;
+    width: 100%;
+    align-items:center;
+    background-color: #1a2843;
+
+} */

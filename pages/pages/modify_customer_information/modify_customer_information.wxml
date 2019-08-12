@@ -1,0 +1,24 @@
+<!--pages/pages/modify_customer_information/modify_customer_information.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>名称</span>
+        <input placeholder-class="title_search_placeholder" placeholder="请输入" value="中艺星宇"></input>
+      </view>
+
+      <view class="for_outbound_view">
+        <span>地址</span>
+        <textarea placeholder-class="title_search_placeholder" placeholder="请输入" value="大兴区绿地中央广场A座1203智汇好吧会所中心"></textarea>
+      </view>
+
+      <view>
+        <span>所属业务员</span>
+        <input placeholder-class="title_search_placeholder" placeholder="请输入" value="肖继新"></input>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<button class="submit_audit">保存</button>

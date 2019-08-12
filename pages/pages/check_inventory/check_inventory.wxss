@@ -1,0 +1,44 @@
+/* pages/pages/check_inventory/check_inventory.wxss */
+
+.for_outbound{
+  width: 690rpx;
+  background: #1a2843;
+  border-radius: 30rpx;
+  margin:0rpx auto 20rpx auto;
+  padding-bottom: 80rpx;
+}
+
+.for_outbound>.for_outbound_title{
+  padding-left: 30rpx;
+  margin-top: 56rpx;
+  width: 630rpx;
+  display: -webkit-box;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+  overflow-scrolling: touch;
+
+}
+
+.for_outbound_title>view{
+  font-size: 30rpx;
+  color: #7f9fdc;
+  padding-bottom: 34rpx;
+  border-bottom: 4rpx solid #1a2843;
+  margin-right: 45rpx;
+}
+
+.for_outbound_title>.for_outbound_title_view{
+  color: #fff;
+  border-bottom: 4rpx solid #3ec9e6;
+}
+
+
+.for_outbound>.for_outbound_content1{
+  width: 630rpx;
+  box-sizing:border-box;
+  margin:47rpx auto -1rpx auto;
+  overflow: hidden;
+  height: auto;
+
+}

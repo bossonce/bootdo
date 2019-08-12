@@ -1,0 +1,43 @@
+<!--pages/pages/financial_income_details/financial_income_details.wxml-->
+<view class="financial_income_details">
+  <view class="financial_income_details1">
+    2019年7月
+    <image src="../images/white_down_arrow.png"></image>
+  </view>
+  <view class="financial_income_details2">
+    <view>
+      <view>
+        租赁收入
+        <span>200</span>
+      </view>
+      <span>2019年7月25</span>
+    </view>
+
+    <view>
+      <view>
+        租赁收入
+        <span>200</span>
+      </view>
+      <span>2019年7月25</span>
+    </view>
+
+    <view>
+      <view>
+        租赁收入
+        <span>200</span>
+      </view>
+      <span>2019年7月25</span>
+    </view>
+
+    <view>
+      <view>
+        租赁收入
+        <span>200</span>
+      </view>
+      <span>2019年7月25</span>
+    </view>
+
+  </view>
+</view>
+
+<button class="submit_audit">新增收入</button>

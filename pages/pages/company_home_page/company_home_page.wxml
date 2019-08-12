@@ -1,0 +1,208 @@
+<!--index.wxml-->
+<view class="index">
+  <view class='title'>
+    <view class='title1'>
+      <image class='title1_img1' src='../images/positioning.png'></image>
+      <span>北京</span>
+      <image class='title1_img2' src='../images/white_down_arrow.png'></image>
+    </view>
+    <view class='title2'>
+      <image src='../images/a_magnifying_glass.png'></image>
+      <input bindtap='search' placeholder-class='title2_placeholder' placeholder='搜索公司名称或设备名称'></input>
+    </view>
+    <button class='search' bindtap='search1'>
+      搜索
+    </button>
+  </view>
+  <view class='xinput' style='opacity:{{xinput}}' wx:if="{{xinput_view}}"></view>
+
+      <swiper class='shuffling_figure'indicator-dots="{{indicatorDots}}">
+        <block>
+          <swiper-item>
+            <image class='shuffling_figure_img' src='../images/text_pactur.png'></image>
+          </swiper-item>
+        </block>
+      </swiper>
+
+    <view class='lebale'>
+        <view>
+          <image src='../images/workflow.png'></image>
+          工作流          
+        </view>
+        <view>
+          <image src='../images/activity.png'></image>
+          活动          
+        </view>
+        <view>
+        <image src='../images/video.png'></image>
+          视频          
+        </view>
+        <view>
+        <image src='../images/scheduling.png'></image>
+          调度          
+        </view>
+        <view>
+        <image src='../images/wealth.png'></image>
+          财务          
+        </view>
+        <view>
+        <image src='../images/address_book.png'></image>
+          通讯录          
+        </view>
+        <view>
+        <image src='../images/send_single.png'></image>
+          派单          
+        </view>
+        <view>
+        <image src='../images/to_sign_up.png'></image>
+          报名          
+        </view>
+      </view>
+
+      <view class='company_financial'>
+        <view class='company_financial_name'>公司财务</view>
+
+        <view class='company_financial_view' style='background:url(../images/icon_company_financial.png)'>
+          <view class='company_financial_view_time'>
+            2019/07/24-2019/08/20
+          </view>
+          <view class='company_financial_view_title'>中艺星宇（北京）舞台设备有限公司</view>
+          <view class='company_financial_view_yuan'>
+            <view>
+              应收金额(元)
+              <view>1000.00</view>
+            </view>
+            <span></span>
+            <view>
+              已收金额(元)
+              <view>1000.00</view>
+            </view>
+          </view>
+        </view>
+
+        <view class='account'>
+          <view bindtap="listpx" class="account1">
+            <image src='../images/icon_enter_an_item_in_an_account.png' class='enter_an_item_in_an_account'></image>
+            入账
+            <image style="transform:rotate({{imgUrl}}deg);" src='../images/white_down_arrow.png' class='white_down_arrow'></image>
+            <text>1</text>
+          </view>
+
+          <view class="temp {{pxopen ? 'slidown' : 'slidup'}}">
+            <view class='account_an'>
+              <view>
+                ￥88888
+                <view>
+                  <view>中艺星宇</view>
+                  <view>肖继新</view>
+                </view>
+              </view>
+              <button>待入账</button>
+            </view>
+
+            <view class='account_an'>
+              <view>
+                ￥88888
+                <view>
+                  <view>中艺星宇</view>
+                  <view>肖继新</view>
+                </view>
+              </view>
+              <button>待入账</button>
+            </view>
+          </view>
+        </view>
+
+        <view class='account'>
+          <view bindtap="listpx1" class="account1">
+            <image src='../images/outbound.png' class='enter_an_item_in_an_account'></image>
+            出库
+            <image style="transform:rotate({{imgUrl1}}deg);" src='../images/white_down_arrow.png' class='white_down_arrow'></image>
+            <text>1</text>
+          </view>
+
+          <view class="temp {{pxopen1 ? 'slidown' : 'slidup'}}">
+            <view class='account_an'>
+              <view>
+                中国儿童中心
+                <view>
+                  <view>Mac 1.00台</view>
+                  <view>06/12-06/13</view>
+                </view>
+              </view>
+              <button>待出库</button>
+            </view>
+          </view>
+        </view>
+
+        <view class='account'>
+          <view bindtap="listpx2" class="account1">
+            <image src='../images/back_to_library.png' class='enter_an_item_in_an_account'></image>
+            回库
+            <image style="transform:rotate({{imgUrl2}}deg);" src='../images/white_down_arrow.png' class='white_down_arrow'></image>
+            <text>1</text>
+          </view>
+
+          <view class="temp {{pxopen2 ? 'slidown' : 'slidup'}}">
+            <view class='account_an'>
+              <view>
+                中国儿童中心
+                <view>
+                  <view>Mac 1.00台</view>
+                  <view>06/12-06/13</view>
+                </view>
+              </view>
+              <button>待出库</button>
+            </view>
+          </view>
+        </view>
+
+        <view class='account'>
+          <view bindtap="listpx3" class="account1">
+            <image src='../images/distribution.png' class='enter_an_item_in_an_account'></image>
+            配货
+            <image style="transform:rotate({{imgUrl3}}deg);" src='../images/white_down_arrow.png' class='white_down_arrow'></image>
+            <text>1</text>
+
+          </view>
+
+          <view class="temp {{pxopen3 ? 'slidown' : 'slidup'}} {{pxshow ? 'disappear':''}}">
+            <view class='account_an'>
+              <view>
+                中国儿童中心
+                <view>
+                  <view>Mac 1.00台</view>
+                  <view>06/12-06/13</view>
+                </view>
+              </view>
+              <button>待出库</button>
+            </view>
+          </view>
+        </view>
+
+        <view class='account'>
+          <view bindtap="listpx4" class="account1">
+            <image src='../images/audit.png' class='enter_an_item_in_an_account'></image>
+            审核
+            <image style="transform:rotate({{imgUrl4}}deg);" src='../images/white_down_arrow.png' class='white_down_arrow'></image>
+            <text>1</text>
+
+          </view>
+
+          <view class="temp {{pxopen4 ? 'slidown' : 'slidup'}}">
+            <view class='account_an'>
+              <view>
+                中国儿童中心
+                <view>
+                  <view>Mac 1.00台</view>
+                  <view>06/12-06/13</view>
+                </view>
+              </view>
+              <button>待出库</button>
+            </view>
+          </view>
+        </view>
+
+
+      </view>
+</view>

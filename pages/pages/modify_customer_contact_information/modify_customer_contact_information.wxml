@@ -1,0 +1,20 @@
+<!--pages/pages/modify_customer_contact_information/modify_customer_contact_information.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>名称</span>
+        <input placeholder-class="title_search_placeholder" placeholder="请输入" value="中艺星宇"></input>
+      </view>
+
+      <view>
+        <span>电话</span>
+        <input placeholder-class="title_search_placeholder" placeholder="请输入" value="10086"></input>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<button class="submit_audit">保存</button>
+

@@ -1,0 +1,36 @@
+.for_outbound>.for_outbound_view {
+  border-bottom: 0rpx;
+}
+
+.for_outbound>.for_outbound_content{
+  width: 630rpx;
+  margin:40rpx auto 0rpx auto;
+  padding-bottom: 42rpx;
+  overflow: hidden;
+  border-bottom: 1rpx solid #293c60;
+  height: auto;
+  line-height: 44rpx;
+}
+
+.for_outbound_content>view:nth-child(1){
+  font-size: 30rpx;
+  color: #37bc9b;
+  float: right;
+
+}
+
+.for_outbound_content>view>span{
+  font-size: 20rpx;
+}
+
+.for_outbound_content>view{
+  font-size: 30rpx;
+  color: #fff;
+  margin-bottom: 10rpx;
+  text-align: left;
+}
+
+.for_outbound_content>.for_outbound_content_view{
+  font-size: 26rpx;
+  color: #6288cc;
+}

@@ -1,0 +1,38 @@
+<view style="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view class="amount_of">
+        <view>租赁收入</view>
+        <span>+200</span>
+      </view>
+
+      <view>
+        <span>收款方式</span>现金
+      </view>
+      <view>
+        <span>日期</span>2019-07-03
+      </view>
+      <view>
+        <span>经手人</span>肖继新
+      </view>
+      <view>
+        <span>收入类别</span>租赁收入
+      </view>
+      <view>
+        <span>客户</span>中艺星宇
+      </view>
+      <view class="for_outbound1">
+        <span>租赁单</span>
+        <view>中艺星宇</view>
+        <view>中国儿童中心</view>
+        <view>2019-07-04</view>
+
+      </view>
+
+      <view class="for_outbound_view">
+        <span>备注</span>
+        <view>中艺星宇</view>
+      </view>
+    </view>
+  </view>
+</view>

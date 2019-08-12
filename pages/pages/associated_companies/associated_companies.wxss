@@ -1,0 +1,9 @@
+/* pages/pages/associated_companies/associated_companies.wxss */
+.a_arch{
+  overflow: hidden;
+  padding-top:40rpx; 
+}
+
+.search_lab{
+  margin-top: 50rpx;
+}

@@ -1,0 +1,362 @@
+{
+	"description": "项目配置文件",
+	"packOptions": {
+		"ignore": []
+	},
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true,
+		"autoAudits": false
+	},
+	"compileType": "miniprogram",
+	"libVersion": "2.7.4",
+	"appid": "wxe2a3b18ea97645c6",
+	"projectname": "%E4%B8%AD%E8%89%BA%E6%98%9F%E5%AE%87",
+	"debugOptions": {
+		"hidedInDevtools": []
+	},
+	"isGameTourist": false,
+	"simulatorType": "wechat",
+	"simulatorPluginLibVersion": {},
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"currentL": -1,
+			"list": []
+		},
+		"miniprogram": {
+			"current": 44,
+			"list": [
+				{
+					"id": 0,
+					"name": "提示",
+					"pathName": "pages/pages/pages/pages",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "创建公司",
+					"pathName": "pages/pages/create_company/create_company",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "关联公司",
+					"pathName": "pages/pages/associated_companies/associated_companies",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页",
+					"pathName": "pages/pages/index/index",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 4,
+					"name": "首页(公司)",
+					"pathName": "pages/pages/company_home_page/company_home_page",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "首页(个人)",
+					"pathName": "pages/pages/a_private_company/a_private_company",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "公司详情",
+					"pathName": "pages/pages/company_details/company_details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "推荐专区",
+					"pathName": "pages/pages/recommend_zone/recommend_zone",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "工作流",
+					"pathName": "pages/pages/workflow/workflow",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "待出库",
+					"pathName": "pages/pages/for_outbound/for_outbound",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "回库确认",
+					"pathName": "pages/pages/back_library_to_confirm/back_library_to_confirm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "配货确认",
+					"pathName": "pages/pages/distribution_to_confirm/distribution_to_confirm",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "待审核",
+					"pathName": "pages/pages/to_audit/to_audit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "审核未通过",
+					"pathName": "pages/pages/audit_failed/audit_failed",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "查看库存",
+					"pathName": "pages/pages/check_inventory/check_inventory",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "活动",
+					"pathName": "pages/pages/activity/activity",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "租赁详情",
+					"pathName": "pages/pages/lease_details/lease_details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "视频",
+					"pathName": "pages/pages/video/video",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "视频详情",
+					"pathName": "pages/pages/video_details/video_details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "调度",
+					"pathName": "pages/pages/scheduling/scheduling",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "财务",
+					"pathName": "pages/pages/financial/financial",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "财务收入明细",
+					"pathName": "pages/pages/financial_income_details/financial_income_details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "收入详情",
+					"pathName": "pages/pages/income_details/income_details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "新增收入",
+					"pathName": "pages/pages/new_income/new_income",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "收款方式",
+					"pathName": "pages/pages/payment_methods/payment_methods",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": 25,
+					"name": "收入类别",
+					"pathName": "pages/pages/lncome_category/lncome_category",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "租赁单",
+					"pathName": "pages/pages/lease_order/lease_order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单",
+					"pathName": "pages/pages/order/order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单收款情况",
+					"pathName": "pages/pages/order_collection_status/order_collection_status",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "账户流水",
+					"pathName": "pages/pages/account_of_water/account_of_water",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "流水",
+					"pathName": "pages/pages/running_water/running_water",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单收入详情",
+					"pathName": "pages/pages/order_revenue_details/order_revenue_details",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "账户互转",
+					"pathName": "pages/pages/account_transfers/account_transfers",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "客户对账",
+					"pathName": "pages/pages/client_reconciliation/client_reconciliation",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "中艺星宇",
+					"pathName": "pages/pages/art_star_in_space/art_star_in_space",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "中艺新宇(订单详情)",
+					"pathName": "pages/pages/art_star_in_space_order/art_star_in_space_order",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "回款",
+					"pathName": "pages/pages/receivable/receivable",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "订单查询",
+					"pathName": "pages/pages/order_query/order_query",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "财务(个人)",
+					"pathName": "pages/pages/financial_personal/financial_personal",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "通讯录",
+					"pathName": "pages/pages/address_book/address_book",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "公告牌",
+					"pathName": "pages/pages/bulletin_board/bulletin_board",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改客户信息",
+					"pathName": "pages/pages/modify_customer_information/modify_customer_information",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "修改客户信息联系人",
+					"pathName": "pages/pages/modify_customer_contact_information/modify_customer_contact_information",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "第三方",
+					"pathName": "pages/pages/third_party/third_party",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "报名",
+					"pathName": "pages/pages/to_sign_up/to_sign_up",
+					"query": "",
+					"scene": null
+				}
+			]
+		}
+	}
+}

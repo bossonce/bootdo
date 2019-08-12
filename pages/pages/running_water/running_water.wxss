@@ -1,0 +1,98 @@
+/* pages/pages/running_water/running_water.wxss */
+.style{
+  width: 690rpx;
+  margin: auto;
+  padding-top: 30rpx;
+  overflow: hidden;
+}
+
+.running_water_title>view{
+  width: 258rpx;
+	height: 60rpx;
+	background-color: #1e2d4a;
+	border-radius: 10rpx;
+  float: left;
+  line-height: 60rpx;
+  text-align: center;
+}
+
+.running_water_title>view>input{
+  font-size: 26rpx;
+  color: #fff;
+  height: 100%;
+  line-height: 60rpx;
+}
+
+.running_water_title_input{
+  color: #a3b7da;
+}
+
+.running_water_title>text{
+  float: left;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 30rpx;
+  color: #a3b7da;
+  padding: 0rpx 10rpx;
+
+}
+
+.running_water_title>button{
+  float: right;
+  line-height: 28rpx;
+  color: #fff;
+	height: 60rpx;
+  font-size: 26rpx;
+	background-image: linear-gradient(94deg, 
+		#2167ef 0%, 
+		#3790ef 100%), 
+	linear-gradient(
+		#0059a7, 
+		#0059a7);
+	background-blend-mode: normal, 
+		normal;
+	border-radius: 10rpx;
+  padding: 17rpx 23rpx;
+}
+
+.running_water{
+  width: 690rpx;
+  height: auto;
+  /* padding-top: 25rpx; */
+  margin:47rpx auto -3rpx auto;
+	background: #1a2843;
+	box-shadow: 0rpx 1rpx 27rpx 0rpx 
+		rgba(3, 0, 0, 0.1);
+	border-radius: 16rpx;
+  overflow: hidden;
+}
+
+.running_water>view{
+  border-bottom: 1rpx solid #293c60;
+  width: 630rpx;
+  margin: auto;
+  padding-top: 40rpx;
+  padding-bottom: 30rpx;
+}
+
+.running_water>view>view:nth-child(1){
+  float: right;
+  color: #ffbc36;
+  font-size: 36rpx;
+}
+
+.running_water>view>view:nth-child(2){
+  color: #fff;
+  font-size: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.running_water>view>view:nth-child(3){
+  color: #6288cc;
+  font-size: 26rpx;
+}
+
+#running_water_text{
+  color: #8b8788;
+  font-size: 36rpx;
+}

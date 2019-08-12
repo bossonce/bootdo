@@ -1,0 +1,78 @@
+/* pages/pages/new_income/new_income.wxss */
+
+.new_income {
+  width: 690rpx;
+  background-color: #1a2843;
+  box-shadow: 0rpx 1rpx 27rpx 0rpx rgba(3, 0, 0, 0.1);
+  border-radius: 16rpx;
+  overflow: hidden;
+  margin: auto;
+  padding: 0rpx 25rpx 0rpx 30rpx;
+  color: #7f9fdc;
+  font-size: 30rpx;
+}
+
+.new_income_last {
+  width: 100%;
+  border-bottom: 1rpx solid #293c60;
+  height: 90rpx;
+  line-height: 90rpx;
+  overflow: hidden;
+}
+
+.new_income_last>input {
+  float: right;
+  height: 100%;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  text-align: right;
+  color: #fff;
+}
+
+.new_income_last_input {
+  color: #576c84;
+}
+
+.new_income_last>image {
+  width: 14rpx;
+  height: 25rpx;
+  float: right;
+  margin-top: 34rpx;
+  margin-left: 20rpx;
+}
+
+.new_income_last>.new_income_last_image {
+  width: 25rpx;
+  height: 25rpx;
+}
+
+.last_textarea {
+  color: #576c84;
+}
+
+.new_income_last>textarea {
+  width: 100%;
+  display: block;
+  font-size: 30rpx;
+  height: 120rpx;
+  color: #fff;
+  line-height: 32rpx;
+}
+
+.new_income>.new_income_last2 {
+  height: auto;
+}
+
+.submit {
+  position: fixed;
+  bottom: 0rpx;
+  width: 750rpx;
+  height: 98rpx;
+  background-color: #0059a7;
+  box-shadow: 0rpx -1rpx 0rpx 0rpx #34528a;
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 98rpx;
+  left: 0rpx;
+  border-radius: 0rpx;
+}

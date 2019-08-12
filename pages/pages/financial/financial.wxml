@@ -1,0 +1,44 @@
+<!--pages/pages/financial/financial.wxml-->
+<view class="financial" style="background:url(../images/icon_company_financial.png)">
+  <view class="financial_time">
+    <span>07</span>
+    /2019
+  </view>
+  <view class="financial_many">
+    月营业额(元)
+    <view>1000.00</view>
+  </view>
+  <view class="financial_number">
+    <view>收入<view>1000.00</view></view>
+    <view>支出<view>0</view></view>
+    <view>订单<view>0</view></view>
+  </view>
+</view>
+
+<view class="financial_bottom">
+  <view>
+    <image src="../images/account_of_water.png"></image>
+    账户流水
+    <image src="../images/white_right_arrow.png"></image>
+  </view>
+  <view>
+    <image src="../images/account_transfers.png"></image>
+    账户互转
+    <image src="../images/white_right_arrow.png"></image>
+  </view>
+  <view>
+    <image src="../images/client reconciliation.png"></image>
+    客户对账
+    <image src="../images/white_right_arrow.png"></image>
+  </view>
+  <view>
+    <image src="../images/order_query.png"></image>
+    订单查询
+    <image src="../images/white_right_arrow.png"></image>
+  </view>
+</view>
+
+<view class="but">
+  <view>新增支出</view>
+  <view>新增收入</view>
+</view>

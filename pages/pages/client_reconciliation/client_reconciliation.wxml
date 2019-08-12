@@ -1,0 +1,42 @@
+<!--pages/pages/client_reconciliation/client_reconciliation.wxml-->
+<view class="style">
+  <view class='title'>
+    <button class='search'>搜索</button>
+    <view class='title_search'>
+      <image src='../images/a_magnifying_glass.png'></image>
+      <input placeholder-class="title_search_placeholder" placeholder='搜索公司名称或设备名称'></input>
+    </view>
+  </view>
+
+  <view class="maney" style="background:url('../images/icon_client_reconciliation_background.png');">
+    <view>
+      <text>欠款客户(人)</text>
+      <view>10</view>
+    </view>
+
+    <view>
+      <text>欠款金额(元)</text>
+      <view>1000.00</view>
+    </view>
+
+  </view>
+
+  <view class="client_reconciliation">
+    <view>
+      <view>客户欠款</view>
+    </view>
+
+    <view>
+      <view>中艺星宇</view>1000.00
+    </view>
+
+    <view>
+      <view>中艺星宇</view>1000.00
+    </view>
+
+    <view>
+      <view>中艺星宇</view>1000.00
+    </view>
+
+  </view>
+</view>

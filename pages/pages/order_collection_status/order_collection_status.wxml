@@ -1,0 +1,48 @@
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>客户</span>中艺星宇
+      </view>
+      <view>
+        <span>电话</span>18888888888
+      </view>
+      <view>
+        <span>订单日期</span>2019-07-04
+      </view>
+      <view>
+        <span>总金额</span>8888.00
+      </view>
+      <view>
+        <span>活动地点</span>中国儿童中心
+      </view>
+    </view>
+  </view>
+  <view class="stay"  hidden="{{tab !=1}}">
+    <view class="for_outbound">
+      <view>
+        <span>付款明细</span>
+      </view>
+      <view>
+        <span>2019-07-04</span>18888888888
+      </view>
+      <view>
+        <span>2019-07-04</span>4444.00
+      </view>
+      <view>
+        <span>2019-07-05</span>4444.00
+      </view>
+    </view>
+  </view>
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>已收款</span>8888.00
+      </view>
+      <view>
+        <span>待收款</span>0
+      </view>
+    </view>
+  </view>
+
+</view>

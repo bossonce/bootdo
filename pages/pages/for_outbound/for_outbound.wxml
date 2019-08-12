@@ -1,0 +1,97 @@
+<!--pages/pages/for_outbound/for_outbound.wxml-->
+<view class="stay">
+  <view class="for_outbound">
+    <view>
+      <span>联系人</span>
+      张豆豆
+    </view>
+
+    <view>
+      <span>联系方式</span>
+      18653987569
+    </view>
+
+    <view>
+      <span>日期</span>
+      2019-06-12至2019-06-13
+    </view>
+
+    <view>
+      <span>活动地点</span>
+      中国儿童中心
+    </view>
+
+    <view>
+      <span>活动类型</span>
+      庆典
+    </view>
+
+    <view class="for_outbound_view">
+      <span>备注</span>
+      <view>
+        中国儿童中心中国儿童中心中国儿童中心儿童 中心
+      </view>
+    </view>
+
+  </view>
+</view>
+<view class="stay">
+  <view class="for_outbound">
+    <view>
+      <span>订单状态</span>
+      待出库
+    </view>
+
+    <view>
+      <span>活动费用</span>1200.00
+    </view>
+
+    <view class="for_outbound_view1" style="height:{{equipment}}" bindtap="activity">
+      <view>
+        <span>活动设备</span>
+        <image src="../images/white_down_arrow.png" style="transform: rotate({{arrow}}deg);"></image>
+      </view>
+      <view class="for_outbound_content">
+        <view>1.00
+          <span>台</span>
+        </view>
+        <view>P10</view>
+        <view class="for_outbound_content_view">标准</view>
+        <view class="for_outbound_content_view">巴克</view>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="stay">
+  <view class="for_outbound">
+    <view>
+      <span>订单信息</span>
+    </view>
+    <view>
+      <span>创建时间</span>2019-07-04 14:53:48
+    </view>
+    <view>
+      <span>出库时间</span>2019-07-04 14:53:48
+    </view>
+    <view>
+      <span>回库时间</span>2019-07-04 14:53:48
+    </view>
+  </view>
+</view>
+
+<view class="stay">
+  <view class="for_outbound">
+    <view>
+      <span>出库物流信息</span>
+    </view>
+    <view>
+      <span>人员</span>肖继新
+    </view>
+    <view>
+      <span>电话</span>18659687954
+    </view>
+    <view>
+      <span>运费</span>1200.00
+    </view>
+  </view>
+</view>

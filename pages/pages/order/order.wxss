@@ -1,0 +1,48 @@
+/* pages/pages/order/order.wxss */
+.style{
+  width: 100%;
+  padding-top: 40rpx;
+  overflow: hidden;
+}
+
+.order{
+  width: 630rpx;
+	background-color: #1a2843;
+	box-shadow: 0rpx 1rpx 27rpx 0rpx 
+		rgba(3, 0, 0, 0.1);
+	border-radius: 16rpx;
+  margin:0rpx auto 20rpx auto;
+  padding: 40rpx 30rpx 0rpx 30rpx;
+  overflow: hidden;
+}
+
+.order>view:nth-child(1){
+  float: right;
+  color: #ffbc36;
+  font-size: 36rpx;
+}
+
+.order>view:nth-child(2){
+  color: #fff;
+  font-size: 34rpx;
+  margin-bottom: 27rpx;
+}
+
+.order>view:nth-child(3){
+  color: #b1bdf5;
+  font-size: 24rpx;
+  margin-bottom: 30rpx;
+}
+
+.order>view:nth-child(4){
+  color: #40619c;
+  font-size: 24rpx;
+  margin-bottom: 44rpx;
+}
+
+.order>view>image{
+  width: 20rpx;
+	height: 26rpx;
+  float: left;
+  margin-right: 8rpx;  
+}

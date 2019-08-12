@@ -1,0 +1,72 @@
+<!--pages/pages/scheduling/scheduling.wxml-->
+<view class="style">
+  <view class="for_outbound">
+    <view>
+      <image src="../images/order.png"></image>
+      <span>订单</span>
+    </view>
+
+    <view class="for_outbound1">
+      <view class="for_outbound_content">
+        <view>10
+          <span>台</span>
+        </view>
+        <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+        <view class="for_outbound_content_view">标准</view>
+        <view class="for_outbound_content_view">巴克</view>
+      </view>
+    </view>
+
+    <view class="for_outbound1">
+      <view class="for_outbound_content">
+        <view>10
+          <span>台</span>
+        </view>
+        <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+        <view class="for_outbound_content_view">标准</view>
+        <view class="for_outbound_content_view">巴克</view>
+      </view>
+    </view>
+
+  </view>
+
+  <view class="for_outbound">
+    <view>
+      <image src="../images/order.png"></image>
+      <span>订单</span>
+    </view>
+    <view class="account_an">
+      <view>
+        中国儿童中心
+        <view>
+          <view>Mac 1.00台</view>
+          <view>06/12-06/13</view>
+        </view>
+      </view>
+      <button>待出库</button>
+    </view>
+
+    <view class="account_an">
+      <view>
+        中国儿童中心
+        <view>
+          <view>Mac 1.00台</view>
+          <view>06/12-06/13</view>
+        </view>
+      </view>
+      <button>取消</button>
+    </view>
+
+    <view class="account_an">
+      <view>
+        中国儿童中心
+        <view>
+          <view>Mac 1.00台</view>
+          <view>06/12-06/13</view>
+        </view>
+      </view>
+      <button>取消</button>
+    </view>
+
+  </view>
+</view>

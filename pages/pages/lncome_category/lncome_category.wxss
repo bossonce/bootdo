@@ -1,0 +1,93 @@
+/* pages/pages/payment_methods/payment_methods.wxss */
+
+.payment_methods{
+  width: 690rpx;
+	background-color: #1a2843;
+	box-shadow: 0rpx 1rpx 27rpx 0rpx 
+		rgba(3, 0, 0, 0.1);
+	border-radius: 16rpx;
+  margin:40rpx auto;
+  min-height: 80%;
+}
+
+.payment_methods_button{
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 28rpx;
+  color: #fff;
+  text-align: center;
+  background: transparent;
+  padding: 0rpx;
+}
+
+.payment_methods_button>image{
+  width: 28rpx;
+  height: 28rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.payment_methods>view{
+  width: 630rpx;
+  margin: auto;
+  overflow: hidden;
+  padding-top: 20rpx;
+
+}
+
+.payment_methods>view{
+  height: 98rpx;
+  border-bottom: 1rpx solid #293c60;
+  line-height: 98rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+.payment_methods>view>image{
+  width: 37rpx;
+  height: 37rpx;
+  float: right;
+  margin-top: 35rpx;
+}
+
+.submit {
+  position: fixed;
+  bottom: 0rpx;
+  width: 750rpx;
+  height: 98rpx;
+  background-color: #0059a7;
+  box-shadow: 0rpx -1rpx 0rpx 0rpx #34528a;
+  color: #fff;
+  font-size: 30rpx;
+  line-height: 98rpx;
+  left: 0rpx;
+  border-radius: 0rpx;
+}
+
+.payment_methods1{
+  height: 88rpx;
+  line-height: 30rpx;
+  color: #fff;
+  width: 630rpx;
+  margin: auto;
+  font-size: 30rpx;
+  overflow: hidden
+}
+
+.payment_methods1>span{
+  float: left;
+  line-height: 105rpx;
+}
+
+.payment_methods1>input{
+  margin-left: 40rpx;
+  height: 100%;
+  line-height: 88rpx;
+  color: #fff;
+  font-size: 30rpx;
+  display: inline-block;
+}
+
+.payment_methods1_color{
+  color: #576c84;
+}

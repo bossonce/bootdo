@@ -1,0 +1,53 @@
+<!--pages/pages/video/video.wxml-->
+<view class="style">
+  <view class="video">
+    <image src="../images/text_pactur.png"></image>
+    <view>
+      <view>佛学50讲佛学50讲</view>
+      <view>学佛三天，佛在眼前</view>
+      <view>肖继新 著名佛学家</view>
+      <view>￥662</view>
+    </view>
+  </view>
+
+  <view class="video">
+    <image src="../images/text_pactur.png"></image>
+    <view>
+      <view>佛学50讲佛学50讲</view>
+      <view>学佛三天，佛在眼前</view>
+      <view>肖继新 著名佛学家</view>
+      <view>￥662</view>
+    </view>
+  </view>
+
+  <view class="video">
+    <image src="../images/text_pactur.png"></image>
+    <view>
+      <view>佛学50讲佛学50讲</view>
+      <view>学佛三天，佛在眼前</view>
+      <view>肖继新 著名佛学家</view>
+      <view>￥662</view>
+    </view>
+  </view>
+
+  <view class="video">
+    <image src="../images/text_pactur.png"></image>
+    <view>
+      <view>佛学50讲佛学50讲</view>
+      <view>学佛三天，佛在眼前</view>
+      <view>肖继新 著名佛学家</view>
+      <view>￥662</view>
+    </view>
+  </view>
+
+  <view class="video">
+    <image src="../images/text_pactur.png"></image>
+    <view>
+      <view>佛学50讲佛学50讲</view>
+      <view>学佛三天，佛在眼前</view>
+      <view>肖继新 著名佛学家</view>
+      <view>￥662</view>
+    </view>
+  </view>
+
+</view>

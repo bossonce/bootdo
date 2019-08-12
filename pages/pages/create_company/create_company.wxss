@@ -1,0 +1,125 @@
+/* pages/pages/create_company/create_company.wxss */
+
+.create_company {
+  overflow: hidden;
+  padding-bottom: 150rpx;
+}
+
+.your_company_information {
+  width: 690rpx;
+  background-color: #1a2843;
+  border-radius: 16rpx;
+  margin: 0rpx auto 20rpx auto;
+  overflow: hidden;
+}
+
+.company_logo {
+  width: 630rpx;
+  margin: auto;
+  border-bottom: 1rpx solid #293c60;
+  height: 162rpx;
+}
+
+.company_logo>span {
+  font-size: 30rpx;
+  color: #7f9fdc;
+  line-height: 162rpx;
+}
+
+.company_logo>view {
+  float: right;
+  width: 94rpx;
+  height: 94rpx;
+  background: rgba(0, 89, 167, 0.4);
+  border-radius: 10rpx;
+  border: solid 1rpx #1a3d64;
+  margin-top: 38rpx;
+}
+
+.view_images1 {
+  width: 28rpx;
+  height: 28rpx;
+  margin: 33rpx;
+}
+
+.view_images2 {
+  width: 100%;
+  height: 100%;
+  opacity: 1;
+}
+
+.company_title {
+  width: 630rpx;
+  border-bottom: 1rpx solid #293c60;
+  height: 97rpx;
+  line-height: 97rpx;
+  font-size: 30rpx;
+  color: #7f9fdc;
+  margin: auto;
+}
+
+.company_title>span {
+  width: 50%;
+  float: left;
+}
+
+.company_title>input {
+  width: 50%;
+  height: 100%;
+  line-height: 98rpx;
+  float: right;
+  text-align: right;
+  color: #fff;
+}
+
+.phcolor {
+  color: #576c84;
+}
+
+#fill_in {
+  width: 590rpx;
+  height: 152rpx;
+  border: 1rpx solid rgba(165, 193, 247, 0.45);
+  border-radius: 10rpx;
+  padding: 30rpx 20rpx;
+  overflow: hidden;
+  margin: 0rpx auto 45rpx auto;
+}
+
+.fill_in_input {
+  width: 100%;
+  height: 172rpx;
+  color: #fff;
+  font-size: 30rpx;
+}
+
+.fill_in_textarea {
+  color: #576c84;
+}
+
+.company_JianShao {
+  width: 630rpx;
+  height: 268rpx;
+  margin: auto;
+}
+
+.company_JianShao_name {
+  font-size: 30rpx;
+  color: #7f9fdc;
+  margin-top: 23rpx;
+  margin-bottom: 29rpx;
+}
+
+.company_JianShao>textarea {
+  height: 160rpx;
+  color: #fff;
+}
+
+.company_JianShao_name_textarea {
+  color: #576c84;
+}
+
+.company_title1{
+  margin: 0rpx auto -1rpx auto;
+  overflow: hidden;
+}

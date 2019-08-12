@@ -1,0 +1,59 @@
+<!--pages/pages/receivable/receivable.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>客户</span>中艺星宇
+      </view>
+      <view>
+        <span>租赁单</span>中国儿童中心（2019-06-11）
+      </view>
+      <view>
+        <span>活动费用</span>20000.00
+      </view>
+      <view>
+        <span>实收金额</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>收款方式</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>收入类别</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>业务员</span>肖继新
+      </view>
+      <view>
+        <span>财务人员</span>肖继新
+      </view>
+      <view>
+        <span>已收款</span>
+        <text>200</text>
+        <view>
+          <checkbox></checkbox>
+          结清
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class='your_company_information shuffling_figure'>
+    <view class='shuffling_figure_name'>轮播图</view>
+    <view class='shuffling_figure_picture'>
+      <view class='shuffling_figure_picture_view1' bindtap='shuffling_figure_picture' wx:if="{{shuffling_figure_picture_view1}}">
+        <image class='shuffling_figure_picture_view1_images' src='../images/icon_company_add.png'></image>
+      </view>
+      <view class='shuffling_figure_picture_view1' wx:for="{{shuffling_figure_picture1}}" wx:key="idx" wx:for-index="idx">
+        <image class='shuffling_figure_picture_view1_view_img' bindtap="delete_picture" data-index="{{idx}}" src='../images/blue_poor.png'></image>
+        <image src='{{item.path}}' class='shuffling_figure_picture_view1_view'></image>
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class="submit_audit">确认</button>

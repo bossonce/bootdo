@@ -1,0 +1,128 @@
+/* pages/pages/scheduling/scheduling.wxss */
+
+.for_outbound {
+  width: 690rpx;
+  background: #1a2843;
+  border-radius: 15rpx;
+  padding: 0rpx 20rpx;
+}
+
+.for_outbound>view>image {
+  float: left;
+  width: 29rpx;
+  height: 29rpx;
+  margin-top: 36rpx;
+  margin-right: 14rpx;
+}
+
+.for_outbound>view:nth-child(1){
+  padding-left: 30rpx;
+  margin-left: -30rpx;
+  padding-right: 30rpx;
+}
+
+.for_outbound>view>span {
+  float: left;
+  color: #7f9fdc;
+}
+
+.for_outbound>.for_outbound1 {
+  height: auto;
+  margin: 0rpx auto 20rpx auto;
+  overflow: hidden;
+}
+
+.for_outbound1>view {
+  margin: 20rpx auto 0rpx auto;
+  padding-bottom: 22rpx;
+  overflow: hidden;
+  border-bottom: 1rpx solid #293c60;
+  height: auto;
+  line-height: 44rpx;
+}
+
+.for_outbound>view>image {
+  float: left;
+  width: 29rpx;
+  height: 29rpx;
+  margin-top: 33rpx;
+  margin-right: 14rpx;
+}
+
+.for_outbound1>view>span {
+  float: left;
+  color: #7f9fdc;
+}
+
+.for_outbound_content>view:nth-child(1) {
+  font-size: 30rpx;
+  color: #37bc9b;
+  float: right;
+}
+
+.for_outbound_content>view>span {
+  font-size: 20rpx;
+}
+
+.for_outbound_content>view {
+  font-size: 30rpx;
+  color: #fff;
+  margin-bottom: 10rpx;
+  text-align: left;
+}
+
+.for_outbound_content>.for_outbound_content_view {
+  font-size: 26rpx;
+  color: #6288cc;
+}
+
+.style {
+  margin-top: 30rpx;
+  paffiiing-bottom: 72rpx;
+  overflow: hidden;
+}
+
+.for_outbound>.account_an{
+  overflow: hidden;
+  padding-bottom: 29rpx;
+  width: 100%;
+  border-bottom: 1rpx solid #293c60;
+  margin-bottom: 35rpx;
+  height: auto;
+  line-height: 43rpx;
+
+}
+
+.account_an>button {
+  margin-right: 0rpx;
+}
+
+/* .account_an>view{
+  float: left;
+  width: 60%;
+  color: #FFF;
+  text-align: left;
+  line-height: 32rpx;
+}
+
+.account_an>view>view{
+  margin-top: 8rpx;
+
+}
+
+.account_an>view>view>view{
+  display: inline-block;
+  margin-right: 29rpx;
+  font-size: 26rpx;
+  color: #6288cc;
+}
+
+.account_an>button{
+  font-size: 28rpx;
+  color: #fefefe;
+  padding: 20rpx 43rpx;
+  display: inline-block;
+  background: #37bc9b;
+  line-height: 32rpx;
+  border-radius: 65rpx;
+} */

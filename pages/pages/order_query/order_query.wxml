@@ -1,0 +1,46 @@
+<!--pages/pages/order_query/order_query.wxml-->
+<view class="data">
+  <input placeholder-class="title_search_placeholder" placeholder="起始日期"></input>
+  <text>至</text>
+  <input placeholder-class="title_search_placeholder" placeholder="截止日期"></input>
+</view>
+
+<view class='title'>
+  <button class='search'>搜索</button>
+  <view class='title_search'>
+    <image src='../images/a_magnifying_glass.png'></image>
+    <input placeholder-class="title_search_placeholder" placeholder='搜索公司名称或设备名称'></input>
+  </view>
+</view>
+
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound_content">
+      <view>肖继新</view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view>2019-07-03</view>
+      <view class="for_outbound_content_view">
+        <image src="../images/positioning1.png"></image>标准
+      </view>
+    </view>
+
+    <view class="for_outbound_content">
+      <view>肖继新</view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view>2019-07-03</view>
+      <view class="for_outbound_content_view">
+        <image src="../images/positioning1.png"></image>标准
+      </view>
+    </view>
+
+    <view class="for_outbound_content">
+      <view>肖继新</view>
+      <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+      <view>2019-07-03</view>
+      <view class="for_outbound_content_view">
+        <image src="../images/positioning1.png"></image>标准
+      </view>
+    </view>
+    
+  </view>
+</view>

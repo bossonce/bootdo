@@ -1,0 +1,79 @@
+/* pages/pages/art_star_in_space_order/art_star_in_space_order.wxss */
+.for_outbound>view>view{
+  text-align: left;
+}
+
+.for_outbound>view>view>span{
+  color: #7f9fdc;
+}
+
+.for_outbound>view>view>image{
+  width: 31rpx;
+	height: 17rpx;
+  float: right;
+  margin-top: 37rpx;
+  transform: rotate();
+}
+
+.for_outbound>.active_device{
+  height: auto;
+
+}
+
+.for_outbound>view>textarea{
+  width: 100%;
+  height: 120rpx;
+  line-height: 32rpx;
+  font-size: 30rpx;
+  color: #fff;
+  display: block;
+  text-align: left;
+  float: left;
+}
+
+.note{
+  color: #576c84;
+}
+
+.for_outbound>.picture{
+  height: auto;
+}
+
+.picture>view{
+  width: 630rpx;
+  overflow: hidden;
+  margin-right: -20rpx;
+}
+
+.for_outbound>.picture>view>image{
+  width: 143rpx;
+	height: 143rpx;
+	border-radius: 5rpx;
+  margin-right: 20rpx;
+  margin-top: 0rpx;
+  float: left;
+}
+
+.for_outbound>.picture>view>image:nth-child(4){
+  margin-right: 0rpx;
+}
+
+.stay1{
+  padding-bottom:0rpx;
+}
+
+.stay1>view{
+  padding-top:0rpx;
+}
+
+.stay1>view>view{
+  border: 0rpx;
+}
+
+.for_outbound>view>image{
+  width: 28rpx;
+	height: 28rpx;
+  float: right;
+  margin-top: 35rpx;
+  margin-left: 18rpx;
+}

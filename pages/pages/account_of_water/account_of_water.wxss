@@ -1,0 +1,38 @@
+/* pages/pages/account_of_water/account_of_water.wxss */
+.style{
+  padding-top: 42rpx;
+  width: 100%;
+  overflow: hidden;
+}
+
+.account_of_water{
+  width: 690rpx;
+	background-color: #1a2843;
+	box-shadow: 0rpx 1rpx 27rpx 0rpx 
+		rgba(3, 0, 0, 0.1);
+	border-radius: 16rpx;
+  margin:27rpx auto -1rpx auto;
+  overflow: hidden;
+}
+
+.account_of_water>view{
+  width: 630rpx;
+  margin: auto;
+  height: 87rpx;
+  border-bottom: 1rpx solid #293c60;
+  line-height: 87rpx;
+  text-align: right;
+  color: #ffbc36;
+  font-size: 30rpx;
+}
+
+.account_of_water>view>span{
+  float: left;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.account_of_water>view>image{
+  width: 14rpx;
+	height: 25rpx;
+}

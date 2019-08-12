@@ -1,0 +1,98 @@
+<!--pages/pages/company_details/company_details.wxml-->
+<view class="company_details">
+  <view class="company_details_view">
+    <swiper class='shuffling_figure' indicator-dots="{{indicatorDots}}">
+      <block>
+        <swiper-item>
+          <image class='shuffling_figure_img' src='../images/text_pactur.png'></image>
+        </swiper-item>
+      </block>
+    </swiper>
+
+    <view class="company_details_view_title">
+      北京汉斯文传媒有限公司
+      <button bindtap="focus_on">{{focus_on_name}}</button>
+    </view>
+    <view class="company_details_view1">
+      <view>
+        <image src="../images/yellow_star.png"></image>
+      </view>
+      <view>粉丝
+        <span>29</span>
+      </view>
+    </view>
+    <view class="company_details_view2">
+      <image src="../images/positioning.png"></image>
+      <span>北京市海淀区安河桥北裕隆新村</span>
+    </view>
+  </view>
+
+  <view class="main_business_bottom1">
+  <view class="main_business_bottom">
+    <view class="main_business">主营业务</view>
+    <view class="main_business_label">
+      <view>灯光音响</view>
+      <view>电视投影</view>
+      <view>婚礼道具</view>
+      <view>舞台丨TRUSS丨雷亚</view>
+      <view>灯光音响</view>
+      <view>电视投影</view>
+      <view>婚礼道具</view>
+      <view>舞台丨TRUSS丨雷亚</view>
+    </view>
+  </view>
+
+
+  <view class="classification">
+    <view bindtap="classification_view" data-num="0">
+      <span class="{{tab == 0?'classification_view':''}}" bindtap="classification_view" data-num="0">简介</span>
+    </view>
+    <view bindtap="classification_view" data-num="1">
+      <span class="{{tab == 1?'classification_view':''}}" bindtap="classification_view" data-num="1">产品</span>
+    </view>
+    <view bindtap="classification_view" data-num="2">
+      <span class="{{tab == 2?'classification_view':''}}" bindtap="classification_view" data-num="2">评价</span>
+    </view>
+  </view>
+
+  <view>
+    <view class="classification_bottom" hidden="{{tab !=0}}">
+      灯光音响LED屏舞台搭建执行活动会议演出经纪赛事传媒灯光音响LED屏舞台搭建执行活动会议演出经纪赛事传媒灯光音响LED屏舞台搭建执行活动会议演出经纪赛事传媒灯光音响LED屏舞台搭建执行活动会议演出经纪赛事传媒灯光音响LED屏舞台搭建执行活动会议演出经纪赛事传媒灯光音响LED屏舞台搭建执行活动会议演出经纪赛事传媒
+    </view>
+
+    <view class="classification_bottom1" hidden="{{tab !=1}}">
+      <view class="classification_bottom1_view">P10台阶屏</view>
+      <view class="classification_bottom1_pactur">
+        <image class='shuffling_figure_img' src='../images/text_pactur.png'></image>
+      </view>
+    </view>
+    <view class="classification_bottom2" hidden="{{tab !=2}}">
+      <view>
+        <view>中艺星宇
+          <span>2019-07-05</span>
+        </view>
+        <view>非常满意本次合作，期待下次合作。</view>
+      </view>
+      <view>
+        <view>中艺星宇
+          <span>2019-07-05</span>
+        </view>
+        <view>非常满意本次合作，期待下次合作。</view>
+      </view>
+      <view>
+        <view>中艺星宇
+          <span>2019-07-05</span>
+        </view>
+        <view>非常满意本次合作，期待下次合作。</view>
+      </view>
+    </view>
+  </view>
+</view>
+</view>
+
+<view class="but">
+  <view>
+    <image src="../images/place_order.png"></image>下单</view>
+  <view>
+    <image src="../images/phone.png"></image>拨打电话</view>
+</view>

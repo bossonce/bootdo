@@ -1,0 +1,86 @@
+/* pages/pages/account_transfers/account_transfers.wxss */
+.account_transfers{
+  width: 630rpx;
+  background-color: #1a2843;
+	box-shadow: 0rpx 1rpx 27rpx 0rpx 
+		rgba(3, 0, 0, 0.1);
+	border-radius: 16rpx;
+  margin:0rpx auto -1rpx auto;
+  padding: 20rpx 30rpx 0rpx 30rpx;
+  overflow: hidden;
+}
+
+.account_transfers_view{
+  height: 89rpx;
+  border-bottom: 1rpx solid #293c60;
+  line-height: 89rpx;
+  font-size: 30rpx;
+  color: #fff;
+  text-align: right;
+}
+
+.account_transfers_view>text{
+  color: #576c84;
+}
+
+.account_transfers_view>image{
+  width: 25rpx;
+  height: 14rpx;
+  vertical-align: middle;
+  margin-left: 15rpx;
+}
+
+.account_transfers_view>view{
+  color: #7f9fdc;
+  text-align: left;
+  float: left;
+  display: inline-block;
+}
+
+.account_transfers_input{
+  color: #576c84;
+}
+
+.account_transfers_view>input{
+  height: 100%;
+  line-height: 90rpx;
+  font-size: 30rpx;
+  color: #fff;
+}
+
+.account_transfers_view>.account_transfers_image{
+  width: 25rpx;
+	height: 25rpx;
+  margin-top: -8rpx;
+}
+
+.account_transfers_view1{
+  height: auto;
+  padding-bottom: 30rpx;
+  overflow: hidden;
+}
+
+.account_transfers_view>textarea{
+  width: 100%;
+  font-size: 30rpx;
+  color: #fff;
+  height: 115rpx;
+  float: left;
+  text-align: left;
+  line-height: 32rpx;
+}
+
+.account_transfers_button{
+  width: 750rpx;
+	height: 98rpx;
+	background-color: #0059a7;
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  font-size: 30rpx;
+  color: #ffffff;
+  line-height: 98rpx;
+  border-radius: 0rpx;
+  border: 0rpx;
+  padding: 0rpx;
+}

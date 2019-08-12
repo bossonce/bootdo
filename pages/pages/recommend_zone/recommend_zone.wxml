@@ -1,0 +1,60 @@
+<!--pages/pages/recommend_zone/recommend_zone.wxml-->
+<view class="recommend_zone1">
+  <view class='recommend_zone'>
+    <view class='recommend_zone_view'>
+      <image src='../images/text_pactur1.png'></image>
+      <view>
+        <view>北京汉斯文传媒有限公司</view>
+        <view class='recommend_zone_view_label'>
+          <view class='recommend_zone_view_label_view'>灯光音响</view>
+          <view class='recommend_zone_view_label_view'>电视投影</view>
+          <view class='recommend_zone_view_label_view'>婚礼道具</view>
+          <view class='recommend_zone_view_label_view'>婚礼道具</view>
+        </view>
+
+        <view class='positioning'>
+          <image src='../images/positioning1.png'></image>
+          <span>北京市海淀区安河桥北裕隆新村</span>
+        </view>
+      </view>
+    </view>
+
+    <view class='recommend_zone_view'>
+      <image src='../images/text_pactur1.png'></image>
+      <view>
+        <view>北京汉斯文传媒有限公司</view>
+        <view class='recommend_zone_view_label'>
+          <view class='recommend_zone_view_label_view'>灯光音响</view>
+          <view class='recommend_zone_view_label_view'>电视投影</view>
+          <view class='recommend_zone_view_label_view'>婚礼道具</view>
+          <view class='recommend_zone_view_label_view'>婚礼道具</view>
+        </view>
+
+        <view class='positioning'>
+          <image src='../images/positioning1.png'></image>
+          <span>北京市海淀区安河桥北裕隆新村</span>
+        </view>
+      </view>
+    </view>
+
+    <view class='recommend_zone_view'>
+      <image src='../images/text_pactur1.png'></image>
+      <view>
+        <view>北京汉斯文传媒有限公司</view>
+        <view class='recommend_zone_view_label'>
+          <view class='recommend_zone_view_label_view'>灯光音响</view>
+          <view class='recommend_zone_view_label_view'>电视投影</view>
+          <view class='recommend_zone_view_label_view'>婚礼道具</view>
+          <view class='recommend_zone_view_label_view'>婚礼道具</view>
+        </view>
+
+        <view class='positioning'>
+          <image src='../images/positioning1.png'></image>
+          <span>北京市海淀区安河桥北裕隆新村</span>
+        </view>
+      </view>
+    </view>
+  </view>
+
+
+</view>

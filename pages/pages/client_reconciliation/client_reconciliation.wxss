@@ -1,0 +1,55 @@
+/* pages/pages/client_reconciliation/client_reconciliation.wxss */
+.maney{
+  width: 690rpx;
+  overflow: hidden;
+	height: 228rpx;
+  margin:98rpx auto 20rpx auto;
+  background-size: cover;
+  border-radius: 30rpx;
+}
+
+.maney>view{
+  width: 50%;
+  display: inline-block;
+  text-align: center;
+  color: #fff;
+  overflow: hidden;
+  height: 100%;
+}
+
+.maney>view>text{
+  font-size: 22rpx;
+  display: block;
+  margin-top: 69rpx;
+}
+
+.maney>view>view{
+  font-size: 48rpx;
+  margin-top: 15rpx;
+}
+
+.client_reconciliation{
+  width: 690rpx;
+  margin:0rpx auto -3rpx;
+  overflow: hidden;
+	background-color: #1a2843;
+	box-shadow: 0rpx 1rpx 27rpx 0rpx 
+		rgba(3, 0, 0, 0.1);
+	border-radius: 16rpx;
+}
+
+.client_reconciliation>view{
+  width: 630rpx;
+  margin: auto;
+  height: 98rpx;
+  line-height: 98rpx;
+  color: #ee504f;
+  text-align: right;
+  border-bottom: 1rpx solid #293c60;
+}
+
+.client_reconciliation>view>view{
+  color: #7f9fdc;
+  float:left;
+  text-align: left;
+}

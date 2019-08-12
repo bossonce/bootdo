@@ -1,0 +1,65 @@
+.style{
+  margin-top: 40rpx;
+}
+
+.for_outbound>view>input {
+  font-size: 30rpx;
+  color: #fff;
+  width: 60%;
+  line-height: 94rpx;
+  height: 94rpx;
+  float: right;
+}
+
+.for_outbound>.for_outbound1 {
+  line-height: 77rpx;
+  color: #7f9fdc;
+  text-align: left;
+  font-size: 30rpx;
+  margin-right: -78rpx;
+  overflow: hidden;
+  height: auto;
+  width: 630rpx;
+}
+
+.for_outbound>.for_outbound1>span {
+  display: block;
+  width: 100%;
+}
+
+.for_outbound>.for_outbound1>view {
+  font-size: 30rpx;
+  color: #fff;
+  margin-right: 78rpx;
+  float: left;
+}
+
+.for_outbound>.for_outbound1>view:nth-child(4) {
+  margin-right: 0rpx;
+}
+
+.for_outbound>.amount_of {
+  text-align: center;
+  height: 288rpx;
+  width: 630rpx;
+  overflow: hidden;
+}
+
+.for_outbound>.amount_of>view {
+  font-size: 30rpx;
+  color: #6288cc;
+  text-align: center;
+}
+
+.for_outbound>.amount_of>view:nth-child(1){
+  margin-top: 40rpx;
+}
+
+.for_outbound>.amount_of>span {
+  font-size: 60rpx;
+  color: #fff;
+  text-align: center;
+  display: block;
+  margin: auto;
+  width: 100%;
+}

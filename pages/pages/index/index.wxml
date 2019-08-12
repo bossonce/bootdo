@@ -1,0 +1,89 @@
+<!--index.wxml-->
+<view class="index">
+  <view class='title'>
+    <view class='title1'>
+      <image class='title1_img1' src='../images/positioning.png'></image>
+      <span>北京</span>
+      <image class='title1_img2' src='../images/white_down_arrow.png'></image>
+    </view>
+    <view class='title2'>
+      <image src='../images/a_magnifying_glass.png'></image>
+      <input bindtap='search' placeholder-class='title2_placeholder' placeholder='搜索公司名称或设备名称'></input>
+    </view>
+    <button class='search' bindtap='search1'>
+      搜索
+    </button>
+  </view>
+  <view class='xinput' style='opacity:{{xinput}}' wx:if="{{xinput_view}}"></view>
+
+      <swiper class='shuffling_figure'indicator-dots="{{indicatorDots}}">
+        <block>
+          <swiper-item>
+            <image class='shuffling_figure_img' src='../images/text_pactur.png'></image>
+          </swiper-item>
+        </block>
+      </swiper>
+
+    <view class='lebale'>
+        <view>
+          <image src='../images/workflow.png'></image>
+          工作流          
+        </view>
+        <view>
+          <image src='../images/activity.png'></image>
+          活动          
+        </view>
+        <view>
+        <image src='../images/video.png'></image>
+          视频          
+        </view>
+        <view>
+        <image src='../images/scheduling.png'></image>
+          调度          
+        </view>
+        <view>
+        <image src='../images/wealth.png'></image>
+          财务          
+        </view>
+        <view>
+        <image src='../images/address_book.png'></image>
+          通讯录          
+        </view>
+        <view>
+        <image src='../images/send_single.png'></image>
+          派单          
+        </view>
+        <view>
+        <image src='../images/to_sign_up.png'></image>
+          报名          
+        </view>
+      </view>
+
+      <view class='recommended'>
+        <view>
+          更多推荐
+          <image src='../images/blue_right_arrow.png'></image>
+        </view>
+        <span>推荐专区</span>
+      </view>
+
+      <view class='recommend_zone'>
+        <view class='recommend_zone_view'>
+          <image src='../images/text_pactur1.png'></image>
+          <view>
+            <view>北京汉斯文传媒有限公司</view>
+            <view class='recommend_zone_view_label'>
+              <view class='recommend_zone_view_label_view'>灯光音响</view>
+              <view class='recommend_zone_view_label_view'>电视投影</view>
+              <view class='recommend_zone_view_label_view'>婚礼道具</view>
+              <view class='recommend_zone_view_label_view'>婚礼道具</view>
+            </view>
+
+            <view class='positioning'>
+              <image src='../images/positioning1.png'></image>
+              <span>北京市海淀区安河桥北裕隆新村</span>
+            </view>
+          </view>
+        </view>
+      </view>
+</view>

@@ -1,0 +1,42 @@
+<view class="style">
+  <view class="order">
+    <view>200</view>
+    <view>中艺星宇星宇星宇</view>
+    <view>2019-07-03</view>
+    <view>
+      <image src="../images/positioning.png"></image>
+      中国儿童中心中国儿童中心中国儿童中心
+    </view>
+  </view>
+
+  <view class="order">
+    <view>200</view>
+    <view>中艺星宇星宇星宇</view>
+    <view>2019-07-03</view>
+    <view>
+      <image src="../images/positioning.png"></image>
+      中国儿童中心中国儿童中心中国儿童中心
+    </view>
+  </view>
+
+  <view class="order">
+    <view>200</view>
+    <view>中艺星宇星宇星宇</view>
+    <view>2019-07-03</view>
+    <view>
+      <image src="../images/positioning.png"></image>
+      中国儿童中心中国儿童中心中国儿童中心
+    </view>
+  </view>
+
+  <view class="order">
+    <view>200</view>
+    <view>中艺星宇星宇星宇</view>
+    <view>2019-07-03</view>
+    <view>
+      <image src="../images/positioning.png"></image>
+      中国儿童中心中国儿童中心中国儿童中心
+    </view>
+  </view>
+
+</view>

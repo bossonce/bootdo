@@ -1,0 +1,94 @@
+<!--pages/pages/address_book/address_book.wxml-->
+
+<view class='title'>
+  <button class='search'>搜索</button>
+  <view class='title_search'>
+    <image src='../images/a_magnifying_glass.png'></image>
+    <input placeholder-class="title_search_placeholder" placeholder='搜索公司名称或设备名称'></input>
+  </view>
+</view>
+
+<view class="address_book">
+  <view bindtap="table" data-tab="0" class="{{tab == 0?'address_book_view':''}}">客户
+    <text wx:if="{{tab == 0}}"></text>
+  </view>
+  <view bindtap="table" data-tab="1" class="{{tab == 1?'address_book_view':''}}">成员
+    <text wx:if="{{tab == 1}}"></text>
+  </view>
+  <view bindtap="table" data-tab="2" class="{{tab == 2?'address_book_view':''}}">第三方
+    <text wx:if="{{tab == 2}}"></text>
+  </view>
+</view>
+
+<view hidden="{{tab !=0}}">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>客户</span>中艺星宇
+      </view>
+      <view>
+        <span>电话</span>18888888888
+      </view>
+      <view>
+        <span>订单日期</span>2019-07-04
+      </view>
+      <view>
+        <span>总金额</span>8888.00
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>已收款</span>8888.00
+      </view>
+      <view>
+        <span>待收款</span>0
+      </view>
+    </view>
+  </view>
+
+</view>
+
+<view hidden="{{tab !=1}}">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span class="for_outbound_name">客户</span>
+        <text>管理员</text>
+        <i>(视频部)</i>18659685965
+      </view>
+      <view>
+        <span class="for_outbound_name">客户</span>
+        <text>管理员</text>18659685965
+      </view>
+      <view>
+        <span class="for_outbound_name">客户</span>
+        <text>管理员</text>18659685965
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<view hidden="{{tab !=2}}">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>客户</span>中艺星宇2
+      </view>
+      <view>
+        <span>电话</span>18888888888
+      </view>
+      <view>
+        <span>订单日期</span>2019-07-04
+      </view>
+      <view>
+        <span>总金额</span>8888.00
+      </view>
+    </view>
+  </view>
+  <button class="submit_audit">增加第三方</button>
+
+</view>

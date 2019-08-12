@@ -1,0 +1,232 @@
+<!--pages/pages/bulletin_board/bulletin_board.wxml-->
+<view class="head_portrait">
+  <view>
+    <image src="../images/workflow.png"></image>
+  </view>
+  <text>肖继新</text>
+</view>
+
+<view class="bulletin_board">
+  <view class="bulletin_board_tba">
+    <view bindtap="table" class="{{tab == 0 ? 'bulletin_board_tba_view':''}}" data-tab="0">
+      <view>
+        <image src="../images/bulletin_board_tab1.png"></image>公告牌
+      </view>
+    </view>
+    <view bindtap="table" class="{{tab == 1 ? 'bulletin_board_tba_view':''}}" data-tab="1">
+      <view>
+        <image src="../images/bulletin_board_tab2.png"></image>客户详情
+      </view>
+    </view>
+    <view bindtap="table" class="{{tab == 2 ? 'bulletin_board_tba_view':''}}" data-tab="2">
+      <view>
+        <image src="../images/bulletin_board_tab3.png"></image>联系人
+      </view>
+    </view>
+    <view bindtap="table" class="{{tab == 3 ? 'bulletin_board_tba_view':''}}" data-tab="3">
+      <view>
+        <image src="../images/bulletin_board_tab4.png"></image>查看订单
+      </view>
+    </view>
+
+  </view>
+
+  <view hidden="{{tab != 0}}">
+    <view class="bulletin_board_num">
+      <text>总订单数</text>3
+    </view>
+
+    <view class="bulletin_board_maney" style="background:url('../images/icon_client_reconciliation_background.png');">
+      <view>
+        <span>已回款(元)</span>10</view>
+      <view>
+        <span>欠款金额(元)</span>1000.00</view>
+    </view>
+
+    <view class="bulletin_board_title">下单物品总汇</view>
+
+    <view class="bulletin_board_items">
+      <view class="for_outbound_content">
+        <view>10
+          <span>台</span>
+        </view>
+        <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+        <view>标准</view>
+      </view>
+
+      <view class="for_outbound_content">
+        <view>10
+          <span>台</span>
+        </view>
+        <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+        <view>标准</view>
+      </view>
+
+      <view class="for_outbound_content">
+        <view>10
+          <span>台</span>
+        </view>
+        <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+        <view>标准</view>
+      </view>
+    </view>
+  </view>
+
+  <view hidden="{{tab != 1}}">
+    <view class="stay">
+      <view class="for_outbound">
+        <view>
+          <span>名称</span>中艺星宇
+        </view>
+        <view class="for_outbound_view">
+          <span>地址</span>
+          <view>大兴区绿地中央广场A座1203智汇好吧会所中心</view>
+        </view>
+        <view>
+          <span>所属业务员</span>肖继新
+        </view>
+      </view>
+    </view>
+
+    <button class="submit_audit">修改客户</button>
+  </view>
+
+  <view hidden="{{tab != 2}}">
+    <view class="contact">
+      <view>
+        <view>
+          <image src="../images/icon_contact_editor.png"></image>|
+          <image src="../images/icon_link_to_delete.png"></image>
+        </view>
+        <text>肖继新</text> 18695624365
+      </view>
+      <view>
+        <view>
+          <image src="../images/icon_contact_editor.png"></image>|
+          <image src="../images/icon_link_to_delete.png"></image>
+        </view>
+        <text>肖继新</text> 18695624365
+      </view>
+      <view>
+        <view>
+          <image src="../images/icon_contact_editor.png"></image>|
+          <image src="../images/icon_link_to_delete.png"></image>
+        </view>
+        <text>肖继新</text> 18695624365
+      </view>
+
+    </view>
+  </view>
+
+  <view class="order" hidden="{{tab != 3}}">
+    <view class="order1">
+      <view class="data">
+        <input placeholder="起始日期" placeholder-class="title_search_placeholder"></input>
+        <text>至</text>
+        <input placeholder-class="title_search_placeholder" placeholder="截止日期"></input>
+      </view>
+
+      <view class='title'>
+        <button class='search'>搜索</button>
+        <view class='title_search'>
+          <image src='../images/a_magnifying_glass.png'></image>
+          <input placeholder-class="title_search_placeholder" placeholder='搜索公司名称或设备名称'></input>
+        </view>
+      </view>
+    </view>
+
+    <view class="order1">
+      <view class="order">
+        <view class="order_column">
+          <view>未收款</view>
+          <text>订单号</text> 56894565225566
+        </view>
+        <view class="order_column">
+          <text>时间</text> 07/26-07/31
+        </view>
+        <view class="order_column">
+          <text>地点</text> 中国儿童中心
+        </view>
+        <view class="order_column">
+          <text>订单详情</text>
+          <view class="for_outbound_content">
+            <view>10
+              <span>台</span>
+            </view>
+            <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+            <view>
+              <image src="../images/positioning1.png"></image>标准</view>
+          </view>
+          <view class="for_outbound_content">
+            <view>10
+              <span>台</span>
+            </view>
+            <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+            <view>
+              <image src="../images/positioning1.png"></image>标准</view>
+          </view>
+          <view class="for_outbound_content">
+            <view>10
+              <span>台</span>
+            </view>
+            <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+            <view>
+              <image src="../images/positioning1.png"></image>标准</view>
+          </view>
+
+          <view class="for_outbound_button">
+            <button>回款</button>
+          </view>
+        </view>
+      </view>
+    </view>
+
+    <view class="order1">
+      <view class="order">
+        <view class="order_column">
+          <view>未收款</view>
+          <text>订单号</text> 56894565225566
+        </view>
+        <view class="order_column">
+          <text>时间</text> 07/26-07/31
+        </view>
+        <view class="order_column">
+          <text>地点</text> 中国儿童中心
+        </view>
+        <view class="order_column">
+          <text>订单详情</text>
+          <view class="for_outbound_content">
+            <view>10
+              <span>台</span>
+            </view>
+            <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+            <view>
+              <image src="../images/positioning1.png"></image>标准</view>
+          </view>
+          <view class="for_outbound_content">
+            <view>10
+              <span>台</span>
+            </view>
+            <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+            <view>
+              <image src="../images/positioning1.png"></image>标准</view>
+          </view>
+          <view class="for_outbound_content">
+            <view>10
+              <span>台</span>
+            </view>
+            <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+            <view>
+              <image src="../images/positioning1.png"></image>标准</view>
+          </view>
+
+          <view class="for_outbound_button">
+            <button>回款</button>
+          </view>
+        </view>
+      </view>
+    </view>
+    
+  </view>
+
+</view>

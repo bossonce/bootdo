@@ -1,0 +1,24 @@
+<!--pages/pages/financial_personal/financial_personal.wxml-->
+
+<view class='company_financial_view' style='background:url(../images/icon_company_financial.png)'>
+  <view class='company_financial_view_yuan'>
+    <view>
+      应收金额(元)
+      <view>1000.00</view>
+    </view>
+    <span></span>
+    <view>
+      已收金额(元)
+      <view>1000.00</view>
+    </view>
+  </view>
+</view>
+
+<view class="stay">
+  <view class="for_outbound">
+    <view>
+      <span>订单</span>2
+      <image src="../images/white_right_arrow.png"></image>      
+    </view>
+  </view>
+</view>

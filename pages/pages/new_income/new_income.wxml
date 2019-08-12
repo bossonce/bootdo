@@ -1,0 +1,51 @@
+<view class="new_income">
+  <view class="new_income_last">
+    金额
+    <input placeholder-class="new_income_last_input" placeholder="请输入金额"></input>
+  </view>
+
+  <view class="new_income_last">
+    收款方式
+    <image src="../images/white_right_arrow.png"></image>
+    <input placeholder-class="new_income_last_input" placeholder="请选择"></input>
+  </view>
+
+  <view class="new_income_last">
+    日期
+    <image class="new_income_last_image" src="../images/icon_calendar.png"></image>
+    <input placeholder-class="new_income_last_input" placeholder="请选择" value="2019-07-04"></input>
+  </view>
+
+  <view class="new_income_last">
+    经手人
+    <image src="../images/white_right_arrow.png"></image>
+    <input placeholder-class="new_income_last_input" placeholder="请选择"></input>
+  </view>
+
+  <view class="new_income_last">
+    收入类别
+    <image src="../images/white_right_arrow.png"></image>
+    <input placeholder-class="new_income_last_input" placeholder="请选择"></input>
+  </view>
+
+  <view class="new_income_last">
+    客户
+    <image src="../images/white_right_arrow.png"></image>
+    <input placeholder-class="new_income_last_input" placeholder="请选择"></input>
+  </view>
+
+  <view class="new_income_last">
+    租赁单
+    <image src="../images/white_right_arrow.png"></image>
+    <input placeholder-class="new_income_last_input" placeholder="请选择"></input>
+  </view>
+
+  <view class="new_income_last new_income_last2">
+    备注
+    <textarea placeholder-class="last_textarea" placeholder="请填写备注"></textarea>
+  </view>
+
+</view>
+
+<button class="submit">保存</button>
+

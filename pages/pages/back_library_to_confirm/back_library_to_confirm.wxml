@@ -1,0 +1,120 @@
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>客户名称</span>中艺星宇
+      </view>
+      <view>
+        <span>联系人</span>张豆豆
+      </view>
+      <view>
+        <span>联系方式</span>18653987569
+      </view>
+      <view>
+        <span>日期</span>2019-06-12至2019-06-13
+      </view>
+      <view>
+        <span>活动地点</span>中国儿童中心
+      </view>
+      <view>
+        <span>活动类型</span>庆典
+      </view>
+      <view class="for_outbound_view">
+        <span>备注</span>
+        <view>
+          中国儿童中心中国儿童中心中国儿童中心儿童 中心
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="stay">
+
+    <view class="for_outbound">
+      <view>
+        <span>人员安排</span>
+      </view>
+
+      <view class="staffing1">
+        <span>测试使用</span>
+
+        <view class="staffing">
+          <button>
+            肖继新
+            <image class="staffing_image" src="../images/researchers_call.png"></image>
+          </button>
+
+          <button class="staffing_button">
+            肖继新
+            <image class="staffing_image" src="../images/researchers_call.png"></image>
+          </button>
+
+          <button>
+            肖继新
+            <image class="staffing_image" src="../images/researchers_call.png"></image>
+          </button>
+          
+        </view>
+      </view>
+
+      <view>
+        <span>订单状态</span>待出库
+      </view>
+
+      <view>
+        <span>活动设备</span>
+        <view class="add1">
+          <image src="../images/icon_company_add.png"></image>
+          添加
+        </view>
+      </view>
+
+      <view class="{{tab == 0?'equipment1':'equipment'}}">
+        <view>E2</view>
+        <view>标准</view>
+        <view>
+          <input value="1.0"></input>
+          台
+        </view>
+        <view>
+          巴克
+        </view>
+        <image src="../images/blue_poor.png" bindtap="equipment_im" data-num="0"></image>
+      </view>
+    </view>
+  </view>
+  <view class="stay">
+
+    <view class="for_outbound">
+      <view>
+        <span>经办人</span>肖继新
+      </view>
+      <view>
+        <span>归还日期</span>2019/07/04
+      </view>
+      <view>
+        <span>物流人员</span>
+        <input placeholder-class="view_ipnut" placeholder="请填写物流人员"></input>
+      </view>
+      <view>
+        <span>联系方式</span>
+        <input placeholder-class="view_ipnut" type="number" bindinput="handleInput" placeholder="请填写联系方式" value="{{value}}"></input>
+      </view>
+
+      <view>
+        <span>运费</span>
+        <input placeholder-class="view_ipnut" placeholder="请填写运费"></input>
+      </view>
+
+      <view class="for_outbound_view">
+        <span>备注</span>
+        <textarea placeholder-class="textarea" placeholder="请填写备注"></textarea>
+      </view>
+    </view>
+  </view>
+</view>
+
+
+<view class="but">
+  <view>打印</view>
+  <view>确认回库</view>
+</view>

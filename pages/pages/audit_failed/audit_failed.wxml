@@ -1,0 +1,16 @@
+<!--pages/pages/audit_failed/audit_failed.wxml-->
+<view class="audit_failed">
+  <view class="audit_failed_title">审核未通过原因</view>
+
+  <view class="label">
+    <view class="{{currentidx==0&&choose==true?'label_view':''}}" data-idx="0" bindtap="chooseItem">库存不足</view>
+    <view class="{{currentidx==1&&choose==true?'label_view':''}}" data-idx="1" bindtap="chooseItem">人员不足</view>
+    <view class="{{currentidx==2&&choose==true?'label_view':''}}" data-idx="2" bindtap="chooseItem">其他</view>
+  </view>
+
+  <view class="input_box">
+    <textarea placeholder-class="textarea" placeholder="请填写具体原因"></textarea>
+  </view>
+</view>
+
+<button class="submit_audit">提交</button>

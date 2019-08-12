@@ -1,0 +1,62 @@
+/* pages/pages/financial_income_details/financial_income_details.wxss */
+
+.financial_income_details {
+  width: 100%;
+  overflow: hidden;
+}
+
+.financial_income_details1 {
+  width: 690rpx;
+  height: 108rpx;
+  line-height: 108rpx;
+  font-size: 30rpx;
+  color: #83a8fd;
+  margin: auto;
+}
+
+.financial_income_details1>image {
+  width: 18rpx;
+  height: 10rpx;
+  vertical-align: middle;
+}
+
+.financial_income_details1>.slidown1 {
+  transform: rotate(0deg);
+}
+
+.financial_income_details1>.slidup1 {
+  transform: rotate(180deg);
+}
+
+.financial_income_details2 {
+  width: 690rpx;
+  border-radius: 16rpx;
+  background: #1a2843;
+  box-shadow: 0rpx 1rpx 27rpx 0rpx rgba(3, 0, 0, 0.1);
+  padding-top: 24rpx;
+  margin: 0rpx auto -1rpx auto;
+  overflow: hidden;
+}
+
+.financial_income_details2>view {
+  border-bottom: 1rpx solid #293c60;
+  padding: 40rpx 0rpx;
+  margin: 0rpx 30rpx;
+}
+
+.financial_income_details2>view>span {
+  font-size: 26rpx;
+  color: #6288cc;
+}
+
+.financial_income_details2>view>view {
+  font-size: 30rpx;
+  color: #fff;
+  margin-bottom: 10rpx;
+}
+
+.financial_income_details2>view>view>span {
+  font-size: 36rpx;
+  color: #ffbc36;
+  float: right;
+}

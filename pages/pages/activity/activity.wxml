@@ -1,0 +1,37 @@
+<!--pages/pages/activity/activity.wxml-->
+<view class="for_outbound1">
+
+</view>
+
+<view class="for_outbound">
+  <view>
+    <image src="../images/order.png"></image>
+    <span>订单</span>
+  </view>
+  <view class="account_an">
+    <view>
+      中国儿童中心
+      <view>
+        <view>Mac 1.00台</view>
+        <view>06/12-06/13</view>
+      </view>
+    </view>
+    <button>取消</button>
+  </view>
+
+</view>
+
+<!-- //是否确认取消订单 -->
+<!-- <view class="cancel">
+  <view class="cancel1">
+    <view>是否取消订单？</view>
+
+    <button>
+      <span>确定</span>
+    </button>
+    <button>
+      <span>取消</span>
+    </button>
+
+  </view>
+</view> -->
