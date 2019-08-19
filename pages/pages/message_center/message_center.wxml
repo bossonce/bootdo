@@ -1,0 +1,7 @@
+<!--pages/pages/message_center/message_center.wxml-->
+<view class="none">
+  <view class="none1">
+    <image src="../images/icon_no_message_center.png"></image>
+    暂时没有收到消息哦！
+  </view>
+</view>

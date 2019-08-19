@@ -1,0 +1,81 @@
+<!--pages/pages/reported_loss/reported_loss.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>报损人</span>肖继新
+      </view>
+
+      <view>
+        <span>经办人</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+
+      <view>
+        <span>报损日期</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+
+      <view class="account_transfers_view account_transfers_view1">
+        <view>备注</view>
+        <textarea placeholder="请填写备注" placeholder-class="input_color"></textarea>
+      </view>
+
+    </view>
+  </view>
+  <view class="stay">
+
+    <view class="for_outbound" id="{{exa ? 'show' : 'hgidden'}}">
+      <view bindtap="damage_of_equipment" data-idx="{{exa}}">
+        <span>报损设备</span>
+        <image src="../images/white_down_arrow.png" class="arrow" style="transform: rotate({{arrow}}deg);"></image>
+      </view>
+
+      <view class="for_outbound_content">
+        <view>
+          <input placeholder-class="input_color" placeholder="请输入" value="1.00"></input>
+          <span>台</span>
+        </view>
+        <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+        <view class="equipment">标准</view>
+        <view class="equipment">巴克</view>
+      </view>
+
+      <view class="for_outbound_content">
+        <view>
+          <input placeholder-class="input_color" placeholder="请输入" value="1.00"></input>
+          <span>台</span>
+        </view>
+        <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+        <view class="equipment">标准</view>
+        <view class="equipment">巴克</view>
+      </view>
+    </view>
+  </view>
+  <view class="stay">
+
+    <view class="for_outbound">
+      <view>
+        <span>总价</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+    </view>
+  </view>
+
+  <view class='your_company_information shuffling_figure'>
+    <view class='shuffling_figure_name'>轮播图</view>
+    <view class='shuffling_figure_picture'>
+      <view class='shuffling_figure_picture_view1' bindtap='shuffling_figure_picture'>
+        <image class='shuffling_figure_picture_view1_images' src='../images/icon_company_add.png'></image>
+      </view>
+      <view class='shuffling_figure_picture_view1' wx:for="{{shuffling_figure_picture1}}" wx:key="idx">
+        <image data-index="{{item.size}}" bindtap="delete_picture" class='shuffling_figure_picture_view1_view_img' src='../images/blue_poor.png'></image>
+        <image src='{{item.path}}' class='shuffling_figure_picture_view1_view'></image>
+      </view>
+    </view>
+  </view>
+
+  <button class="submit_audit">提交</button>
+</view>

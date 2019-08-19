@@ -1,0 +1,25 @@
+<!--pages/pages/evaluation/evaluation.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>用户评价</span>
+      </view>
+      <view class="evaluation">
+        <textarea placeholder="请填写用户评价" maxlength='50' placeholder-class="input_color" bindinput="evaluation" value="{{evaluation}}"></textarea>
+        <text>{{evaluationNumber}}</text>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>评分</span>
+        <view class="score">
+          <view wx:for="{{img}}" style="background:url({{item}})no-repeat;background-size: 100% 100%;" wx:key="idx" wx:for-item="item" data-idx="{{index}}" bindtap="score"></view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

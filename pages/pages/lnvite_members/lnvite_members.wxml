@@ -1,0 +1,29 @@
+<!--pages/pages/lnvite_members/lnvite_members.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>姓名</span>
+        <input placeholder-class="input_color" placeholder="请输入"></input>
+      </view>
+
+      <view>
+        <span>电话</span>
+        <input placeholder-class="input_color" placeholder="请输入"></input>
+      </view>
+
+      <view>
+        <span>所属部门</span>
+        <image src="../images/white_right_arrow.png"></image>
+      </view>
+
+      <view>
+        <span>员工职务</span>
+        <image src="../images/white_right_arrow.png"></image>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<button class="submit_audit">邀请</button>

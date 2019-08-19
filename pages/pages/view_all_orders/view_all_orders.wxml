@@ -1,0 +1,57 @@
+<!--pages/pages/view_all_orders/view_all_orders.wxml-->
+<view class="style">
+  <view class="data">
+    <input placeholder-class="title_search_placeholder" placeholder="起始日期"></input>
+    <text>至</text>
+    <input placeholder-class="title_search_placeholder" placeholder="截止日期"></input>
+  </view>
+
+  <view class='title'>
+    <button class='search'>搜索</button>
+    <view class='title_search'>
+      <image src='../images/a_magnifying_glass.png'></image>
+      <input placeholder-class="title_search_placeholder" placeholder='搜索公司名称或设备名称'></input>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view class="for_outbound_view1">
+        <span>订单号</span>
+        <text>待审核</text> 56894565225566
+      </view>
+      <view>
+        <span>时间</span>
+        07/26-07/31
+      </view>
+      <view>
+        <span>地点</span>
+        中国儿童中心
+      </view>
+
+      <view class='account'>
+        <view bindtap="listpx" class="account1">
+          <span>入账</span>
+          <image style="transform:rotate({{imgUrl}}deg);" src='../images/white_down_arrow.png' class='white_down_arrow'></image>
+          <text>1</text>
+        </view>
+
+        <view class="temp {{pxopen ? 'slidown' : 'slidup'}}">
+          <view class="for_outbound_content">
+            <view>10
+              <span>台</span>
+            </view>
+            <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+            <view>标准</view>
+          </view>
+
+          <view class="for_outbound_button">
+            <button>回款</button>
+          </view>
+
+        </view>
+      </view>
+
+    </view>
+  </view>
+</view>

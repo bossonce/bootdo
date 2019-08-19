@@ -1,0 +1,95 @@
+/* pages/pages/view_all_orders/view_all_orders.wxss */
+.data{
+  padding-top: 28rpx;
+  width: 690rpx;
+  margin: auto;
+  overflow: hidden;
+}
+
+.data>input{
+  width: 315rpx;
+  height: 60rpx;
+	background-color: #1e2d4a;
+	border-radius: 10rpx;
+  font-size: 26rpx;
+  text-align: center;
+  line-height: 60rpx;
+  color: #Fff;
+  display: inline-block;
+}
+
+.data>text{
+  height: 60rpx;
+  width: 60rpx;
+  color: #a3b7da;
+  line-height: 60rpx;
+  text-align: center;  
+  display: inline-block;
+  font-size: 30rpx;
+  vertical-align: top;
+}
+
+.title{
+  position: relative;
+  margin-top: 37rpx; 
+}
+
+.for_outbound>view{
+  text-align: left;
+}
+
+.for_outbound>view>span{
+  width: 120rpx;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  margin-right: 30rpx;
+
+}
+
+.for_outbound>.for_outbound_view1>text{
+  color: #7f9fdc;
+  font-size: 30rpx;
+  float: right;
+}
+
+.stay{
+  padding-bottom: 0rpx;
+}
+
+.account1{
+  padding: 0rpx;
+  width: 100%;
+}
+
+.account1>span{
+  color: #7f9fdc;
+  font-size: 30rpx;
+  text-align-last: justify;
+  text-align: justify;
+  text-justify: distribute-all-lines;
+  float: left;
+}
+
+.for_outbound>.account{
+  height: auto;
+  border-bottom: 0rpx;
+}
+
+.for_outbound_button{
+  height: 85rpx;
+  width: 100%;
+  overflow: hidden;
+}
+
+.for_outbound_button>button{
+  font-size: 30rpx;
+  padding: 17rpx 36rpx;
+  background: #37bc9b;
+  color: #fff;
+  border-radius: 32rpx;
+  display: inline-block;
+  float: right;
+  line-height: 32rpx;
+  margin-top: 20rpx;
+}

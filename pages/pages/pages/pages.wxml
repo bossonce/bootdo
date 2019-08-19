@@ -1,7 +1,7 @@
 <!--pages/pages/pages.wxml-->
 <view class='prompt'>
   <view class='company'>
-    <button style='background:url(../images/create_company.png);background-size: 100% 100%;'>创建公司</button>
-    <button>关联公司</button>
+    <button bindtap="create" style='background:url(../images/create_company.png);background-size: 100% 100%;'>创建公司</button>
+    <button bindtap="associated">关联公司</button>
   </view>
 </view>

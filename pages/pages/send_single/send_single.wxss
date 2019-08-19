@@ -1,0 +1,44 @@
+/* pages/pages/send_single/send_single.wxss */
+.recommend_zone {
+  margin-top: 20rpx;
+}
+
+.recommend_zone{
+  box-sizing: border-box;
+  padding: 40rpx 30rpx 0rpx 30rpx;
+  width: 630rpx;
+}
+
+.recommend_zone>button{
+  float: right;
+  width: 139rpx;
+	height: 65rpx;
+	background-color: #37bc9b;
+	border-radius: 33rpx;
+	border: solid 1rpx #1a3d64;
+  color: #fff;
+  font-size: 30rpx;
+  padding: 0rpx;
+  line-height: 65rpx;
+}
+
+.recommend_zone>view>image{
+  width: 20rpx;
+	height: 26rpx;
+}
+
+.recommend_zone>view:nth-child(2){
+  font-size: 34rpx;
+  color: #fff;
+}
+
+.recommend_zone>view:nth-child(3){
+  font-size: 24rpx;
+  color: #b1bdf5;
+  margin: 25rpx 0rpx 25rpx 0rpx;
+}
+
+.recommend_zone>view:nth-child(4){
+  font-size: 24rpx;
+  color: #40619c;
+}

@@ -1,0 +1,121 @@
+<!--pages/pages/my/my.wxml-->
+<view class="style">
+  <view class="head_portrait">
+    <image src="../images/icon_my-background.png" class="head_portrait_background"></image>
+    <view class="head_portrait_view">
+      <view class="head_portrait_view_top">
+        <view class="head_portrait_view_top_picture">
+          <image src="../images/icon_customer.png"></image>
+        </view>
+        <view class="head_portrait_view_top_view">
+          <text>笑笑百媚生</text>
+          <text>18888888888</text>
+          <text>北京汉斯文传媒有限公司</text>
+        </view>
+      </view>
+
+      <view class="head_portrait_view_bottom">
+        <button>
+          <image src="../images/icon_my_account.png"></image>
+          账户管理
+        </button>
+        <button>
+          <image src="../images/icon_message_center.png"></image>
+          消息中心
+        </button>
+      </view>
+    </view>
+  </view>
+
+  <view class="order">
+    <view>
+      <view class="order_top">
+        <span>我的订单</span>
+        <image src="../images/white_right_arrow.png"></image>
+        全部订单
+      </view>
+      <view class="order_view">
+        <view>
+          <image src="../images/icon_to_audit.png"></image>
+          待审核
+        </view>
+        <view>
+          <image src="../images/icon_ln_service.png"></image>
+          服务中
+        </view>
+        <view>
+          <image src="../images/icon_has_been_completed.png"></image>
+          已完成
+        </view>
+        <view>
+          <image src="../images/icon_has_been_cancelled.png"></image>
+          已取消
+        </view>
+      </view>
+    </view>
+    <i></i>
+    <view>
+      <view class="order_top">
+        <span>我的公司</span>
+        <image src="../images/white_right_arrow.png"></image>
+        查看公司
+      </view>
+      <view class="order_view">
+        <view>
+          <image src="../images/icon_company.png"></image>
+          公司
+        </view>
+        <view>
+          <image src="../images/icon_customer.png"></image>
+          客户
+        </view>
+        <view>
+          <image src="../images/icon_members_of.png"></image>
+          成员
+        </view>
+        <view>
+          <image src="../images/icon_permissions.png"></image>
+          权限
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="order">
+    <view class="order-list">
+      <view>
+          <image src="../images/icon_my_inventory.png"></image>
+      </view> 我的库存
+      <image src="../images/white_right_arrow.png"></image>
+    </view>
+
+    <view class="order-list">
+      <view>
+          <image src="../images/icon_my_task.png"></image>
+      </view> 我的任务
+      <image src="../images/white_right_arrow.png"></image>
+    </view>
+
+    <view class="order-list">
+      <view>
+          <image src="../images/icon_my_attention.png"></image>
+      </view> 我的关注
+      <image src="../images/white_right_arrow.png"></image>
+    </view>
+
+    <view class="order-list">
+      <view>
+          <image src="../images/icon_my_video.png"></image>
+      </view> 我的视频
+      <image src="../images/white_right_arrow.png"></image>
+    </view>
+
+    <view class="order-list">
+      <view>
+          <image src="../images/icon_directions_for_use1.png"></image>
+      </view> 使用说明
+      <image src="../images/white_right_arrow.png"></image>
+    </view>
+
+  </view>
+</view>

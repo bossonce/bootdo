@@ -1,0 +1,57 @@
+<!--pages/pages/members_of/members_of.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>邀请成员</span>
+        <image src="../images/white_right_arrow.png"></image>
+      </view>
+
+      <view>
+        <span>审核成员</span>
+        <image src="../images/white_right_arrow.png"></image>
+      </view>
+
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>邀请成员</span>
+      </view>
+
+      <view class="members_of">
+        <span>肖继新</span>
+        <span>管理员</span>
+        <span>(视频部)</span>
+
+        <view>
+          <button>
+            <image src="../images/icon_contact_editor.png"></image>
+          </button>
+          <button>
+            <image src="../images/icon_link_to_delete.png"></image>
+          </button>
+        </view>
+      </view>
+
+      <view class="members_of">
+        <span>肖继新</span>
+        <span>管理员</span>
+        <span>(视频部)</span>
+
+        <view>
+          <button>
+            <image src="../images/icon_contact_editor.png"></image>
+          </button>
+          <button>
+            <image src="../images/icon_link_to_delete.png"></image>
+          </button>
+        </view>
+      </view>
+
+    </view>
+  </view>
+
+</view>

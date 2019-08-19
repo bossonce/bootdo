@@ -1,0 +1,25 @@
+<!--pages/pages/sign_up_to_fill_in/sign_up_to_fill_in.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>姓名</span>
+        <input placeholder-class="placeholder-class" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>电话</span>
+        <input placeholder-class="placeholder-class" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>性别</span>
+        <input placeholder-class="placeholder-class" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>住址</span>
+        <input placeholder-class="placeholder-class" placeholder="请填写"></input>
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class="submit_audit">提交</button>

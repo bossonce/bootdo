@@ -1,0 +1,36 @@
+<!--pages/pages/accountManagement/accountManagement.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view class="head_portrait">
+        <span>头像</span>
+        <image src="../images/researchers_call.png"></image>
+      </view>
+
+      <view>
+        <span>姓名</span>
+        <input placeholder-class="input_color" placeholder="请填写" bindinput="name"></input>
+      </view>
+
+      <view>
+        <span>昵称</span>几杯懒散
+      </view>
+
+      <view>
+        <span>手机号</span>18656987564
+      </view>
+
+      <view class="for_outbound_view">
+        <span>详细地址</span>
+        <textarea placeholder-class="input_color" placeholder="请填写现居住地址" bindinput="address"></textarea>
+      </view>
+
+      <view class="for_outbound_view">
+        <span>我的公司</span>
+        <view>中艺星宇（北京）舞台设备有限公司</view>
+      </view>
+    </view>
+  </view>
+</view>
+
+<button class="submit_audit">注销登录</button>

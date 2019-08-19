@@ -1,0 +1,26 @@
+<!--pages/pages/editor/editor.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>姓名</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>电话</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>所属部门</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>员工职位</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<button class="submit_audit">保存</button>

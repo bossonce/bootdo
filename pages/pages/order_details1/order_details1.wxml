@@ -1,0 +1,146 @@
+<!--pages/pages/order_details1/order_details1.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>客户名称</span>中艺星宇
+      </view>
+      <view>
+        <span>联系人</span>张豆豆
+      </view>
+      <view>
+        <span>联系方式</span>18653987569
+      </view>
+      <view>
+        <span>日期</span>2019-06-12至2019-06-13
+      </view>
+      <view>
+        <span>活动地点</span>中国儿童中心
+      </view>
+      <view>
+        <span>活动类型</span>庆典
+      </view>
+      <view class="for_outbound_view">
+        <span>联系人</span>
+        <view>
+          中国儿童中心中国儿童中心中国儿童中心儿童中心
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view class="for_outbound_view1">
+        <span>订单号</span>
+        <text>待审核</text> 56894565225566
+      </view>
+      <view>
+        <span>时间</span>
+        07/26-07/31
+      </view>
+      <view>
+        <span>地点</span>
+        中国儿童中心
+      </view>
+
+      <view class='account'>
+        <view bindtap="listpx" class="account1">
+          <span>入账</span>
+          <image style="transform:rotate({{imgUrl}}deg);" src='../images/white_down_arrow.png' class='white_down_arrow'></image>
+          <text>1</text>
+        </view>
+
+        <view class="temp {{pxopen ? 'slidown' : 'slidup'}}">
+          <view class="for_outbound_content">
+            <view>10
+              <span>台</span>
+            </view>
+            <view>P10台阶屏台阶屏台阶屏台阶屏</view>
+            <view>标准</view>
+          </view>
+
+          <view class="for_outbound_button">
+            <button>回款</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>订单信息</span>
+      </view>
+      <view>
+        <span>创建时间</span>2019-07-04 14:53:48
+      </view>
+      <view>
+        <span>出库时间</span>2019-07-04 14:53:48
+      </view>
+      <view>
+        <span>出库时间</span>2019-07-04 14:53:48
+      </view>
+
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>人员安排</span>
+      </view>
+
+      <view class="staffing1">
+        <span>测试使用</span>
+
+        <view class="staffing">
+          <button>
+            肖继新
+            <image class="staffing_image" src="../images/researchers_call.png"></image>
+          </button>
+
+          <button class="staffing_button">
+            肖继新
+            <image class="staffing_image" src="../images/researchers_call.png"></image>
+          </button>
+
+          <button>
+            肖继新
+            <image class="staffing_image" src="../images/researchers_call.png"></image>
+          </button>
+        </view>
+      </view>
+    </view>
+  </view>
+
+  <view class="stay">
+    <view class="for_outbound for_outbound_fixed1">
+      <view class="for_outbound_fixed">
+        <span>图片留言</span>
+      </view>
+      <view class="picture">
+        <view>
+          <image src="../images/text_pactur.png"></image>
+        </view>
+        <view>
+          <image src="../images/text_pactur.png"></image>
+        </view>
+        <view>
+          <image src="../images/text_pactur.png"></image>
+        </view>
+        <view>
+          <image src="../images/text_pactur.png"></image>
+        </view>
+      </view>
+
+      <view class="for_outbound_view">
+        <span>留言</span>
+        <view>中国儿童中心中国儿童中心中国儿童中心儿童 中心
+        </view>
+      </view>
+    </view>
+  </view>
+
+</view>

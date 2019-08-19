@@ -1,0 +1,45 @@
+/* pages/pages/members_of/members_of.wxss */
+.for_outbound>view>image{
+  width: 14rpx;
+	height: 25rpx;
+}
+
+.for_outbound>.members_of>span:nth-child(1){
+  color: #fff;
+}
+
+.for_outbound>.members_of>span:nth-child(2){
+  color: #b1bdf5;
+}
+
+.for_outbound>.members_of>span:nth-child(3){
+  color: #37bc9b;
+}
+
+.for_outbound>.members_of>view{
+  float: right;
+  display: inline-block;
+  height: 100%;
+  line-height: 93rpx;
+  margin-right: -20rpx;
+  overflow: hidden;
+}
+
+.for_outbound>.members_of>view>button{
+  width: auto;
+  display:inline-block;
+  border-right: 1rpx solid #466cb5;
+  padding-right: 20rpx;
+  vertical-align: middle;
+  background: transparent;
+  height: 23rpx;
+  border-radius: 0rpx;
+  line-height: 0rpx;
+}
+
+.for_outbound>.members_of>view>button>image{
+  width: 23rpx;
+	height: 23rpx;
+  vertical-align: middle;
+
+}

@@ -1,0 +1,4 @@
+/* pages/pages/sign_up_to_fill_in/sign_up_to_fill_in.wxss */
+.placeholder-class{
+  color: #7f9fdc;
+}

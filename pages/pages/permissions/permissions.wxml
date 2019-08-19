@@ -1,0 +1,53 @@
+<!--pages/pages/permissions/permissions.wxml-->
+<view class="style">
+  <view class="permissions">
+    <view>
+      <text>员工权限</text>
+      <i></i>
+    </view>
+    <view>
+      <text>职务权限</text>
+      <i></i>
+    </view>
+  </view>
+
+  <view class="permissions1">
+    <view class="stay">
+      <view class="for_outbound">
+        <view>
+          <span>邀请成员</span>
+        </view>
+
+        <view class="members_of">
+          <span>肖继新</span>
+          <span>管理员</span>
+          <span>(视频部)</span>
+
+          <view>
+            <button>
+              <image src="../images/icon_contact_editor.png"></image>
+            </button>
+            <button>
+              <image src="../images/icon_link_to_delete.png"></image>
+            </button>
+          </view>
+        </view>
+
+        <view class="members_of">
+          <span>肖继新</span>
+          <span>管理员</span>
+          <span>(视频部)</span>
+
+          <view>
+            <button>
+              <image src="../images/icon_contact_editor.png"></image>
+            </button>
+            <button>
+              <image src="../images/icon_link_to_delete.png"></image>
+            </button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

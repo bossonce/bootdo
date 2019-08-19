@@ -11,19 +11,19 @@
     <view class="company_title1">
       <view class='company_title'>
         <span>公司名称</span>
-        <input placeholder-class="phcolor" placeholder='请填写'></input>
+        <input placeholder-class="phcolor" placeholder='请填写' bindinput="companyName"></input>
       </view>
       <view class='company_title'>
         <span>联系人</span>
-        <input placeholder-class="phcolor" placeholder='请填写'></input>
+        <input placeholder-class="phcolor" placeholder='请填写' bindinput="contact"></input>
       </view>
       <view class='company_title'>
         <span>联系方式</span>
-        <input placeholder-class="phcolor" placeholder='请填写'></input>
+        <input placeholder-class="phcolor" placeholder='请填写' bindinput="contact1"></input>
       </view>
       <view class='company_title'>
         <span>详细地址</span>
-        <input placeholder-class="phcolor" placeholder='请填写'></input>
+        <input placeholder-class="phcolor" placeholder='请填写' bindinput="detailedAddress"></input>
       </view>
     </view>
   </view>
@@ -31,11 +31,11 @@
   <view class='your_company_information shuffling_figure'>
     <view class='shuffling_figure_name'>轮播图</view>
     <view class='shuffling_figure_picture'>
-      <view class='shuffling_figure_picture_view1' bindtap='shuffling_figure_picture' wx:if="{{shuffling_figure_picture_view1}}">
+      <view class='shuffling_figure_picture_view1' bindtap='shuffling_figure_picture'>
         <image class='shuffling_figure_picture_view1_images' src='../images/icon_company_add.png'></image>
       </view>
-      <view class='shuffling_figure_picture_view1' wx:for="{{shuffling_figure_picture1}}" wx:key="idx" wx:for-index="idx">
-        <image class='shuffling_figure_picture_view1_view_img' src='../images/blue_poor.png'></image>
+      <view class='shuffling_figure_picture_view1' wx:for="{{shuffling_figure_picture1}}" wx:key="idx">
+        <image  data-index="{{item.size}}" bindtap="delete_picture" class='shuffling_figure_picture_view1_view_img' src='../images/blue_poor.png'></image>
         <image src='{{item.path}}' class='shuffling_figure_picture_view1_view'></image>
       </view>
     </view>
@@ -49,17 +49,17 @@
       <view wx:for="{{itemList}}" wx:key="id" bindtap='lab' data-index='{{index}}' class='{{item.isSelected?"shuffling_figure_lab_view":""}}'>{{item.name}}</view>
     </view>
     <view id='fill_in'>
-      <textarea class='fill_in_input' placeholder='填写多个请以空格隔开' placeholder-class="fill_in_textarea"></textarea>
+      <textarea class='fill_in_input' placeholder='填写多个请以空格隔开' placeholder-class="fill_in_textarea" bindinput="businessTag"></textarea>
     </view>
   </view>
 
   <view class='your_company_information'>
     <view class='company_JianShao'>
       <view class='company_JianShao_name'>公司简介</view>
-      <textarea placeholder='请填写公司简介' placeholder-class="company_JianShao_name_textarea"></textarea>
+      <textarea placeholder='请填写公司简介' placeholder-class="company_JianShao_name_textarea"bindinput="companyProfile"></textarea>
     </view>
   </view>
 
 </view>
 
-<button class='submit_audit'>提交审核</button>
+<button class='submit_audit' bindtap="submit_audit">提交审核</button>

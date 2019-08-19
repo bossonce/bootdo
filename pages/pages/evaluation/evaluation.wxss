@@ -1,0 +1,44 @@
+/* pages/pages/evaluation/evaluation.wxss */
+
+.stay{
+  padding-bottom: 0rpx;
+}
+
+.for_outbound>.evaluation{
+  width: 100%;
+  border: 0rpx;
+  height: 240rpx;
+  font-size: 30rpx;
+  position: relative;
+  text-align: left;
+}
+
+.for_outbound>.evaluation>textarea{
+  width: 100%;
+  height: 100%;
+  line-height: 32rpx;
+  font-size: 30rpx;
+}
+
+.for_outbound>.evaluation>text{
+  position: absolute;
+  font-size: 30rpx;
+  color: #576c84;
+  right: 0rpx;
+  bottom: 0rpx;
+}
+
+.score{
+  float: left;
+  height: 100%;
+  margin-left: 50rpx;
+}
+
+.score>view{
+  display: inline-block;
+  width: 44rpx;
+	height: 44rpx;
+  margin-right: 30rpx;
+  vertical-align: middle;
+  background-size: 100% 100%;
+}

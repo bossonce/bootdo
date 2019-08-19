@@ -1,0 +1,5 @@
+/* pages/pages/lnvite_members/lnvite_members.wxss */
+.for_outbound>view>image{
+  width: 14rpx;
+	height: 25rpx;
+}

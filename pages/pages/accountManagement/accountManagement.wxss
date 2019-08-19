@@ -1,0 +1,14 @@
+/* pages/pages/accountManagement/accountManagement.wxss */
+
+.for_outbound>.head_portrait{
+  height: 190rpx;
+  line-height: 190rpx;
+}
+
+.for_outbound>.head_portrait>image{
+  width: 131rpx;
+	height: 131rpx;
+	border-radius: 10rpx;
+  float: right;
+  margin-top: 30rpx;
+}

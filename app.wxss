@@ -26,7 +26,7 @@ page {
 .stay {
   width: 690rpx;
   margin: auto;
-  border-radius: 30rpx;
+  border-radius: 15rpx;
   background-color: #1a2843;
   padding-bottom: 57rpx;
 }
@@ -215,7 +215,7 @@ page {
 .search_lab {
   width: 690rpx;
   background-color: #1a2843;
-  border-radius: 16px;
+  border-radius: 15rpx;
   margin: 0rpx auto -1rpx auto;
   overflow: hidden;
 }
@@ -583,8 +583,8 @@ page {
 .shuffling_figure_name {
   font-size: 30rpx;
   color: #7f9fdc;
-  height: 135rpx;
-  line-height: 135rpx;
+  height: 115rpx;
+  line-height: 115rpx;
   margin-left: 30rpx;
 }
 
@@ -593,6 +593,7 @@ page {
   width: 100%;
   margin-left: 30rpx;
   padding-bottom: 49rpx;
+  padding-top: 20rpx;
 }
 
 .shuffling_figure_picture_view1 {

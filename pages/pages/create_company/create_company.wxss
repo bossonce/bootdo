@@ -119,7 +119,21 @@
   color: #576c84;
 }
 
-.company_title1{
+.company_title1 {
   margin: 0rpx auto -1rpx auto;
   overflow: hidden;
+}
+
+.shuffling_figure_picture {
+  display: -webkit-box;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+  overflow-scrolling: touch;
+  width: 640rpx;
+}
+
+.shuffling_figure_picture_view1{
+  display: block;
+  float: none;
 }

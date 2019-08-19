@@ -1,0 +1,13 @@
+/* pages/pages/members_of_audit/members_of_audit.wxss */
+.for_outbound>view>image{
+  width: 14rpx;
+	height: 25rpx;
+}
+
+.but{
+  position: fixed;
+  bottom: 0rpx;
+  left: 0rpx;
+  right: 0rpx;
+  margin: auto;
+}

@@ -1,0 +1,89 @@
+<!--pages/pages/place_order/place_order.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>客户</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请填写或选择"></input>
+      </view>
+      <view>
+        <span>联系人</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>联系方式</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>起始日期</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请选择"></input>
+      </view>
+      <view>
+        <span>截止日期</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请选择"></input>
+      </view>
+      <view class="for_outbound_view">
+        <span>客户</span>
+        <textarea placeholder-class="input_color" placeholder="请填写活动地点"></textarea>
+      </view>
+    </view>
+
+    <view class="for_outbound">
+      <view>
+        <span>主营产品</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请选择"></input>
+      </view>
+      <view>
+        <span>活动费用</span>
+        <input placeholder-class="input_color" placeholder="请填写"></input>
+      </view>
+      <view>
+        <span>活动类型</span>
+        <image src="../images/white_right_arrow.png"></image>
+        <input placeholder-class="input_color" placeholder="请填写或选择"></input>
+      </view>
+      <view>
+        <span>是否开发票</span>
+        <checkbox></checkbox>
+      </view>
+    </view>
+    
+    <view class="for_outbound">
+      <view>
+        <span>上传附件</span>
+        <button>上传</button>
+      </view>
+    </view>
+
+    <view class="for_outbound for_outbound_fixed1">
+      <view class="for_outbound_fixed"><span>图片留言</span></view>
+      <view class="picture">
+        <view>
+          <image src="../images/text_pactur.png"></image>
+        </view>
+        <view>
+          <image src="../images/text_pactur.png"></image>
+        </view>
+        <view>
+          <image src="../images/text_pactur.png"></image>
+        </view>
+        <view>
+          <image src="../images/text_pactur.png"></image>
+        </view>
+      </view>
+
+      <view class="for_outbound_view">
+        <span>留言</span>
+        <view>中国儿童中心中国儿童中心中国儿童中心儿童
+中心</view>
+      </view>
+    </view>
+
+  </view>
+</view>
+
+<button class="submit_audit">下单</button>

@@ -1,0 +1,30 @@
+<!--pages/pages/members_of_audit/members_of_audit.wxml-->
+<view class="style">
+  <view class="stay">
+    <view class="for_outbound">
+      <view>
+        <span>姓名</span>肖继新
+      </view>
+
+      <view>
+        <span>电话</span>18656975645
+      </view>
+
+      <view>
+        <span>所属部门</span>
+        <image src="../images/white_right_arrow.png"></image>
+      </view>
+
+      <view>
+        <span>员工职务</span>
+        <image src="../images/white_right_arrow.png"></image>
+      </view>
+
+    </view>
+  </view>
+</view>
+
+<view class="but">
+  <view>审核未通过</view>
+  <view>审核通过</view>
+</view>

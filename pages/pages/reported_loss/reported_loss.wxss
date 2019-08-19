@@ -1,0 +1,99 @@
+/* pages/pages/reported_loss/reported_loss.wxss */
+
+.for_outbound>view>image {
+  width: 14rpx;
+  height: 25rpx;
+  float: right;
+  margin-left: 20rpx;
+  margin-top: 32rpx;
+}
+
+.account_transfers_view>textarea {
+  width: 100%;
+  font-size: 30rpx;
+  color: #fff;
+  height: 115rpx;
+  float: left;
+  text-align: left;
+  line-height: 32rpx;
+}
+
+.for_outbound>.account_transfers_view {
+  line-height: 89rpx;
+  font-size: 30rpx;
+  color: #fff;
+  overflow: hidden;
+  height: auto;
+  text-align: left;
+}
+
+.for_outbound>view>.arrow {
+  width: 31rpx;
+  height: 17rpx;
+}
+
+.for_outbound>.for_outbound_content {
+  height: auto;
+  color: #b1bdf5;
+  text-align: left;
+}
+
+.for_outbound_content_view>image {
+  width: 20rpx;
+  height: 26rpx;
+  vertical-align: middle;
+  margin-right: 10rpx;
+}
+
+.for_outbound>.for_outbound_content>.equipment {
+  height: 60rpx;
+  line-height: 60rpx;
+  margin-top: -10rpx;
+}
+
+.for_outbound_content>view>input {
+  display: inline-block;
+  width: 100rpx;
+  text-align: right;
+  line-height: 60rpx;
+  height: 100%;
+  vertical-align: middle;
+}
+
+.for_outbound_content>view>span{
+  vertical-align: middle;
+}
+
+.for_outbound_content>view:nth-child(1) {
+  /* border: 1rpx solid #3bafda; */
+}
+
+#show{
+  height: auto;
+}
+
+#hgidden{
+  height: 93rpx;
+}
+
+.your_company_information {
+  width: 690rpx;
+  background-color: #1a2843;
+  border-radius: 16rpx;
+  margin: 0rpx auto 20rpx auto;
+  overflow: hidden;
+}
+
+.shuffling_figure_picture {
+  display: -webkit-box;
+  overflow-x: scroll;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: hidden;
+  overflow-scrolling: touch;
+  width: 640rpx;
+}
+
+.shuffling_figure_picture_view1{
+  display: block;
+  float: none;
+}

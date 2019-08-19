@@ -2,33 +2,17 @@
 <view class='a_arch'>
 
   <view class='title'>
-    <button class='search'>搜索</button>
+    <button class='search' bindtap="search1">搜索</button>
     <view class='title_search'>
       <image src='../images/a_magnifying_glass.png'></image>
-      <input placeholder-class="title_search_placeholder" placeholder='搜索公司名称或设备名称'></input>
+      <input placeholder-class="title_search_placeholder" bindinput="search" placeholder='搜索公司名称或设备名称'></input>
     </view>
   </view>
 
   <view class='search_lab'>
-    <view class='search_lab_view'>
-      <span>北京汉斯文传媒有限公司</span>
-      <button>申请加入</button>
-    </view>
-    <view class='search_lab_view'>
-      <span>北京汉斯文传媒有限公司</span>
-      <button>申请加入</button>
-    </view>
-    <view class='search_lab_view'>
-      <span>北京汉斯文传媒有限公司</span>
-      <button>申请加入</button>
-    </view>
-    <view class='search_lab_view'>
-      <span>北京汉斯文传媒有限公司</span>
-      <button>申请加入</button>
-    </view>
-    <view class='search_lab_view'>
-      <span>北京汉斯文传媒有限公司</span>
-      <button>申请加入</button>
+    <view class='search_lab_view' wx:for="{{searchLab}}" wx:key="sea">
+      <span>{{item.name}}</span>
+      <button data-index='{{item.id}}' bindtap="apply_for">申请加入</button>
     </view>
   </view>
 </view>
