@@ -39,7 +39,7 @@
 			"list": []
 		},
 		"miniprogram": {
-			"current": 63,
+			"current": 66,
 			"list": [
 				{
 					"id": 0,
@@ -486,6 +486,27 @@
 					"id": -1,
 					"name": "权限",
 					"pathName": "pages/pages/permissions/permissions",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "员工权限编辑",
+					"pathName": "pages/pages/permission_to_edit/permission_to_edit",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "添加职务",
+					"pathName": "pages/pages/add_position/add_position",
+					"query": "",
+					"scene": null
+				},
+				{
+					"id": -1,
+					"name": "我的库存",
+					"pathName": "pages/pages/my_inventory/my_inventory",
 					"query": "",
 					"scene": null
 				}

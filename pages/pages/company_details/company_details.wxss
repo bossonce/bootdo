@@ -29,7 +29,7 @@
 .company_details_view_title{
   margin-left: 20rpx;
   font-size: 36rpx;
-  color: #7f9fdc;
+  color: #fff;
   margin-top: 20rpx;
   margin-right: 20rpx;
 }
@@ -39,12 +39,12 @@
   width: 106rpx;
 	height: 37rpx;
 	background-color: #d95857;
-	border-radius: 5rpx;
   float: right;
   color: #fff;
   font-size: 26rpx;
   line-height: 37rpx;
   padding: 0rpx;
+  border-radius: 37rpx;
 
 }
 
@@ -122,11 +122,11 @@
 }
 
 .classification{
-  margin-top: 20rpx;
   width: 690rpx;
   height: 90rpx;
 	background-color: rgba(127, 159, 220, 0.1);
   margin: auto;
+  margin-top: 20rpx;
 }
 
 .classification>view{

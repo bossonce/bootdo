@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    permissions1:true
   },
 
   /**
@@ -19,6 +19,18 @@ Page({
         frontColor: '#ffffff',
         backgroundColor: '#111a2b'
       })
+  },
+
+  permissions:function(){
+    if (this.data.permissions1 == true){
+      this.setData({
+        permissions1:false
+      })
+    }else{
+      this.setData({
+        permissions1: true
+      })
+    }
   },
 
   /**

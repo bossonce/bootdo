@@ -63,7 +63,10 @@
     "pages/pages/lnvite_members/lnvite_members",
     "pages/pages/members_of_audit/members_of_audit",
     "pages/pages/editor/editor",
-    "pages/pages/permissions/permissions"
+    "pages/pages/permissions/permissions",
+    "pages/pages/permission_to_edit/permission_to_edit",
+    "pages/pages/add_position/add_position",
+    "pages/pages/my_inventory/my_inventory"
   ],
   "window": {
     "backgroundTextStyle": "light",

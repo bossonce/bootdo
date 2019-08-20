@@ -1,43 +1,27 @@
 <!--pages/pages/permissions/permissions.wxml-->
 <view class="style">
   <view class="permissions">
-    <view>
+    <view bindtap="permissions" class="{{permissions1 == true?'view_text':''}}">
       <text>员工权限</text>
-      <i></i>
+      <i class="{{permissions1 == true?'view_i':''}}"></i>
     </view>
-    <view>
+    <view bindtap="permissions" class="{{permissions1 == false?'view_text':''}}">
       <text>职务权限</text>
-      <i></i>
+      <i class="{{permissions1 == false?'view_i':''}}"></i>
     </view>
   </view>
 
-  <view class="permissions1">
+
+  <view class="permissions1" wx:if="{{permissions1 == true}}">
     <view class="stay">
       <view class="for_outbound">
         <view>
           <span>邀请成员</span>
         </view>
-
         <view class="members_of">
-          <span>肖继新</span>
+          <span>肖继新1</span>
           <span>管理员</span>
           <span>(视频部)</span>
-
-          <view>
-            <button>
-              <image src="../images/icon_contact_editor.png"></image>
-            </button>
-            <button>
-              <image src="../images/icon_link_to_delete.png"></image>
-            </button>
-          </view>
-        </view>
-
-        <view class="members_of">
-          <span>肖继新</span>
-          <span>管理员</span>
-          <span>(视频部)</span>
-
           <view>
             <button>
               <image src="../images/icon_contact_editor.png"></image>
@@ -50,4 +34,47 @@
       </view>
     </view>
   </view>
+
+  <view class="permissions1" wx:if="{{permissions1 == false}}">
+    <view class="position">
+      <view>
+        <span>职务类型</span>
+        <image src="../images/icon_company_add.png"></image>
+        添加
+      </view>
+
+      <view class="for_outbound">
+        <view>
+          <span>职务名称</span>
+          <image src="../images/white_down_arrow.png"></image>
+          <input placeholder-class="input_color" placeholder="请填写"></input>
+        </view>
+      </view>
+    </view>
+
+    <view class="position1">
+      <view>
+        <view>
+          <view>审核权限</view>
+          <view>派单权限</view>
+          <view>出库权限</view>
+          <view>回库权限</view>
+          <view>财务权限</view>
+          <view>活动权限</view>
+        </view>
+      </view>
+      <view>
+        <view>
+          <button>移入</button>
+          <image src="../images/icon_move.png"></image>
+          <image src="../images/icon_remove.png"></image>
+          <button>移除</button>
+        </view>
+      </view>
+      <view></view>
+    </view>
+
+    <button class="submit_audit">保存</button>
+  </view>
+
 </view>

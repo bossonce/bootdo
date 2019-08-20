@@ -28,5 +28,5 @@
   padding: 0rpx;
   font-size: 36rpx;
   color: #fff;
-  background-color: #0059a7;
+  background:linear-gradient(94deg,rgba(33,103,239,1),rgba(55,144,239,1));
 }

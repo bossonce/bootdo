@@ -62,7 +62,7 @@
       <view class='company_financial'>
         <view class='company_financial_name'>个人财务</view>
 
-        <view class='company_financial_view' style='background:url(../images/icon_company_financial.png)'>
+        <view class='company_financial_view' style='background:url(../images/icon_company_financial.png);background-size:100% 100%;'>
           <view class='company_financial_view_time'>
             2019/07/24-2019/08/20
           </view>

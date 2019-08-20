@@ -40,7 +40,7 @@ page {
   font-size: 30rpx;
   text-align: center;
   line-height: 98rpx;
-  background-color: #0059a7;
+  background: linear-gradient(94deg, rgba(33, 103, 239, 1), rgba(55, 144, 239, 1));
   box-shadow: 0px -1px 0px 0px #34528a;
   border-radius: 0rpx;
   padding: 0rpx;
@@ -128,8 +128,7 @@ page {
   float: right;
   width: 94rpx;
   height: 60rpx;
-  background-image: linear-gradient(94deg, #2167ef 0%, #3790ef 100%),
-                      linear-gradient(#0059a7, #0059a7);
+  background: linear-gradient(94deg, rgba(33, 103, 239, 1), rgba(55, 144, 239, 1));
   background-blend-mode: normal, normal;
   border-radius: 10rpx;
   color: #fff;
@@ -165,7 +164,7 @@ page {
   height: 30rpx;
   vertical-align: sub;
   margin-right: 10rpx;
-  margin-top: 20rpx;
+  margin-top: 18rpx;
 }
 
 .title1>.title1_img2 {
@@ -266,7 +265,7 @@ page {
 .recommend_zone_view>image {
   width: 235rpx;
   height: 160rpx;
-  margin: 30rpx 20rpx 0rpx 30rpx;
+  margin: 33rpx 20rpx 0rpx 30rpx;
   float: left;
 }
 
@@ -274,7 +273,7 @@ page {
   height: 160rpx;
   width: 365rpx;
   float: left;
-  margin-top: 30rpx;
+  margin-top: 33rpx;
 }
 
 .recommend_zone_view>view>view {
@@ -298,9 +297,11 @@ page {
   color: #fff;
   padding: 5rpx 10rpx;
   background: #37bc9b;
-  height: 28rpx;
+  height: 38rpx;
   margin-right: 10rpx;
   border-radius: 3rpx;
+  box-sizing: border-box;
+  line-height: 35rpx;
 }
 
 .positioning {
@@ -346,7 +347,7 @@ page {
 }
 
 .account_an {
-  height: 150rpx;
+  height: 160rpx;
   width: 650rpx;
   border-bottom: 1rpx solid #293c60;
   margin: auto;
@@ -516,6 +517,7 @@ page {
 }
 
 .staffing>button {
+  border: 0rpx;
   border-right: 1rpx solid #7f9fdc;
   height: 33rpx;
   border-radius: 0rpx;

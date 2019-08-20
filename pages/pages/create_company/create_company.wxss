@@ -11,6 +11,7 @@
   border-radius: 16rpx;
   margin: 0rpx auto 20rpx auto;
   overflow: hidden;
+  box-sizing: border-box;
 }
 
 .company_logo {
@@ -84,6 +85,7 @@
   padding: 30rpx 20rpx;
   overflow: hidden;
   margin: 0rpx auto 45rpx auto;
+  box-sizing: border-box;
 }
 
 .fill_in_input {
